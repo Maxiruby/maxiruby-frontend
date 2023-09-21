@@ -29,7 +29,7 @@ export default function Blog() {
         redirect: "follow",
       };
 
-      fetch("http://maxiruby.com/api/landing/blog", requestOptions)
+      fetch("http://api.maxiruby.com/api/landing/blog", requestOptions)
         .then((response) => response.json())
         .then((result: any) => setProjects(result.result))
         .catch((error) => console.log("error", error));

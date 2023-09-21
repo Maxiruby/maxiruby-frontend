@@ -46,7 +46,7 @@ export default function Profile() {
         redirect: "follow",
       };
       const response = fetch(
-        "http://maxiruby.com/api/users/auth/update",
+        "http://api.maxiruby.com/api/users/auth/update",
         requestOptions
       );
       const data = await (await response).json();
@@ -93,7 +93,7 @@ export default function Profile() {
         redirect: "follow",
       };
       const response = fetch(
-        "http://maxiruby.com/api/users/auth/resetpassword",
+        "http://api.maxiruby.com/api/users/auth/resetpassword",
         requestOptions
       );
       const data = await (await response).json();
@@ -163,7 +163,7 @@ export default function Profile() {
                       className="w-full min-w-[200px]"
                     />
                   </FormGroup>
-              
+
                   <FormGroup>
                     <FormLabel>Password</FormLabel>
                     <div className="flex flex-1 items-stretch flex-wrap gap-4">

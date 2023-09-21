@@ -57,7 +57,7 @@ export default function JoinModal({
     const balance0ETH = await provider.getBalance(address);
     const bnbValue = Web3.utils.fromWei(balance0ETH.toString(), "ether");
     const contract = new ethers.Contract(
-      "0x651018cbc4ca15693f4e623a0141d19eb48d1e30",
+      "0x8B7375ec99572Ce2a1Bda223B6Cf39Ca533cA7Df",
       ido,
       signer
     );
@@ -85,7 +85,7 @@ export default function JoinModal({
     //     body: raw,
     //     redirect: "follow",
     //   };
-    //   fetch("http://maxiruby.com/api/users/auth/project", requestOptions)
+    //   fetch("http://api.maxiruby.com/api/users/auth/project", requestOptions)
     //     .then((response) => response.text())
     //     .then((result) => console.log(result))
     //     .catch((error) => console.log("error", error));
@@ -101,7 +101,7 @@ export default function JoinModal({
     const signer = provider.getSigner();
 
     const balanceUSDT = new ethers.Contract(
-      "0x75Be4f0dea645A17F0F09d9D796Ce898CB3C9909", // muzman token
+      "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee", // muzman token
       Wbnbabi,
       provider
     );
@@ -112,18 +112,18 @@ export default function JoinModal({
     if (Number(balance) < Number(price))
       return setError("You don't have enough USDT");
     const contract = new ethers.Contract(
-      "0x651018cbc4ca15693f4e623a0141d19eb48d1e30",
+      "0x8B7375ec99572Ce2a1Bda223B6Cf39Ca533cA7Df",
       ido,
       signer
     );
     let t = new ethers.Contract(
-      "0x75Be4f0dea645A17F0F09d9D796Ce898CB3C9909", // muzman token
+      "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee", // muzman token
       Wbnbabi,
       signer
     );
     try {
       await t.approve(
-        "0x651018cbc4ca15693f4e623a0141d19eb48d1e30",
+        "0x8B7375ec99572Ce2a1Bda223B6Cf39Ca533cA7Df",
         Web3.utils.toWei(price, "ether")
       );
       const add = await contract.buyWithUSDT(
@@ -150,7 +150,7 @@ export default function JoinModal({
         body: raw,
         redirect: "follow",
       };
-      fetch("http://maxiruby.com/api/users/auth/project", requestOptions)
+      fetch("http://api.maxiruby.com/api/users/auth/project", requestOptions)
         .then((response) => response.text())
         .then((result) => console.log(result))
         .catch((error) => console.log("error", error));
@@ -171,7 +171,7 @@ export default function JoinModal({
         body: raw2,
         redirect: "follow",
       };
-      fetch("http://maxiruby.com/api/landing/addproject", requestOptions2)
+      fetch("http://api.maxiruby.com/api/landing/addproject", requestOptions2)
         .then((response) => response.text())
         .then((result) => console.log(result))
         .catch((error) => console.log("error", error));
@@ -209,7 +209,7 @@ export default function JoinModal({
       const signer = provider.getSigner();
 
       const contract = new ethers.Contract(
-        "0x651018cbc4ca15693f4e623a0141d19eb48d1e30",
+        "0x8B7375ec99572Ce2a1Bda223B6Cf39Ca533cA7Df",
         ido,
         signer
       );

@@ -27,7 +27,7 @@ export default function BlogDetails() {
       };
 
       fetch(
-        "http://maxiruby.com/api/landing/blogone/" + pathname.split("/")[2],
+        "http://api.maxiruby.com/api/landing/blogone/" + pathname.split("/")[2],
         requestOptions
       )
         .then((response) => response.json())

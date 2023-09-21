@@ -75,14 +75,16 @@ export default function Project() {
       };
 
       fetch(
-        "http://maxiruby.com/api/landing/oneproject/" + pathname.split("/")[2],
+        "http://api.maxiruby.com/api/landing/oneproject/" +
+          pathname.split("/")[2],
         requestOptions
       )
         .then((response) => response.json())
         .then((result: any) => setProjects(result.result))
         .catch((error) => console.log("error", error));
       fetch(
-        "http://maxiruby.com/api/landing/tierlist/" + pathname.split("/")[2],
+        "http://api.maxiruby.com/api/landing/tierlist/" +
+          pathname.split("/")[2],
         requestOptions
       )
         .then((response) => response.json())

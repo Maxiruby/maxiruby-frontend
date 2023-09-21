@@ -39,7 +39,10 @@ startTransition(() => {
                 redirect: "follow",
               };
 
-              fetch("http://maxiruby.com/api/users/auth/wallet", requestOptions)
+              fetch(
+                "http://api.maxiruby.com/api/users/auth/wallet",
+                requestOptions
+              )
                 .then((response) => response.text())
                 .then((result) => console.log(result))
                 .catch((error) => console.log("error", error));

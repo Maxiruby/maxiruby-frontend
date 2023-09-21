@@ -30,7 +30,7 @@ export default function PortfolioIDOsParticipated() {
         redirect: "follow",
       };
 
-      fetch("http://maxiruby.com/api/users/auth/getproject", requestOptions)
+      fetch("http://api.maxiruby.com/api/users/auth/getproject", requestOptions)
         .then((response: any) => response.text())
         .then((result) => setProjects(JSON.parse(result).result))
         .catch((error) => console.log("error", error));
