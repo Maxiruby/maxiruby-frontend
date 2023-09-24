@@ -66,13 +66,9 @@ import { useOnRouteChange } from "./hooks/useOnRouteChange";
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: globals },
-  {
-    rel: "icon",
-    href: "/build/favicon.svg",
-    type: "image/png",
-  },
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
   { rel: "preconnect", href: "https://fonts.gstatic.com" },
+  { rel: "icon", href: "/favicon.svg", type: "image/x-icon" },
   {
     rel: "stylesheet",
     href: "https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700&display=swap",
