@@ -46779,7 +46779,7 @@ function JoinModal({
         body: raw,
         redirect: "follow"
       };
-      fetch("http://api.maxiruby.com/api/users/auth/project", requestOptions).then((response) => response.text()).then((result) => console.log(result)).catch((error2) => console.log("error", error2));
+      fetch("https://api.maxiruby.com/api/users/auth/project", requestOptions).then((response) => response.text()).then((result) => console.log(result)).catch((error2) => console.log("error", error2));
       var myHeaders2 = new Headers();
       myHeaders2.append("Content-Type", "application/json");
       myHeaders2.append("Authorization", "Bearer " + localStorage.getItem("token")?.replace(/['"]+/g, ""));
@@ -46793,7 +46793,7 @@ function JoinModal({
         body: raw2,
         redirect: "follow"
       };
-      fetch("http://api.maxiruby.com/api/landing/addproject", requestOptions2).then((response) => response.text()).then((result) => console.log(result)).catch((error2) => console.log("error", error2));
+      fetch("https://api.maxiruby.com/api/landing/addproject", requestOptions2).then((response) => response.text()).then((result) => console.log(result)).catch((error2) => console.log("error", error2));
       setLoader(false);
       setSuccess("Successfully bought");
       setError("");
@@ -48121,8 +48121,8 @@ function Project() {
         headers: myHeaders,
         redirect: "follow"
       };
-      fetch("http://api.maxiruby.com/api/landing/oneproject/" + pathname.split("/")[2], requestOptions).then((response) => response.json()).then((result) => setProjects(result.result)).catch((error) => console.log("error", error));
-      fetch("http://api.maxiruby.com/api/landing/tierlist/" + pathname.split("/")[2], requestOptions).then((response) => response.json()).then((result) => setTierlist(result.result)).catch((error) => console.log("error", error));
+      fetch("https://api.maxiruby.com/api/landing/oneproject/" + pathname.split("/")[2], requestOptions).then((response) => response.json()).then((result) => setProjects(result.result)).catch((error) => console.log("error", error));
+      fetch("https://api.maxiruby.com/api/landing/tierlist/" + pathname.split("/")[2], requestOptions).then((response) => response.json()).then((result) => setTierlist(result.result)).catch((error) => console.log("error", error));
     };
     getAllProject();
   }, []);

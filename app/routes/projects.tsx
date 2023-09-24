@@ -31,7 +31,7 @@ export default function Projects() {
         redirect: "follow",
       };
 
-      fetch("http://api.maxiruby.com/api/landing/all", requestOptions)
+      fetch("https://api.maxiruby.com/api/landing/all", requestOptions)
         .then((response) => response.json())
         .then((result: any) => setProjects(result.result))
         .catch((error) => console.log("error", error));

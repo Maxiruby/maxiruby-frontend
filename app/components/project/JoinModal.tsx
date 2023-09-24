@@ -85,7 +85,7 @@ export default function JoinModal({
     //     body: raw,
     //     redirect: "follow",
     //   };
-    //   fetch("http://api.maxiruby.com/api/users/auth/project", requestOptions)
+    //   fetch("https://api.maxiruby.com/api/users/auth/project", requestOptions)
     //     .then((response) => response.text())
     //     .then((result) => console.log(result))
     //     .catch((error) => console.log("error", error));
@@ -150,7 +150,7 @@ export default function JoinModal({
         body: raw,
         redirect: "follow",
       };
-      fetch("http://api.maxiruby.com/api/users/auth/project", requestOptions)
+      fetch("https://api.maxiruby.com/api/users/auth/project", requestOptions)
         .then((response) => response.text())
         .then((result) => console.log(result))
         .catch((error) => console.log("error", error));
@@ -171,7 +171,7 @@ export default function JoinModal({
         body: raw2,
         redirect: "follow",
       };
-      fetch("http://api.maxiruby.com/api/landing/addproject", requestOptions2)
+      fetch("https://api.maxiruby.com/api/landing/addproject", requestOptions2)
         .then((response) => response.text())
         .then((result) => console.log(result))
         .catch((error) => console.log("error", error));

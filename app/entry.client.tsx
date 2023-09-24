@@ -40,7 +40,7 @@ startTransition(() => {
               };
 
               fetch(
-                "http://api.maxiruby.com/api/users/auth/wallet",
+                "https://api.maxiruby.com/api/users/auth/wallet",
                 requestOptions
               )
                 .then((response) => response.text())

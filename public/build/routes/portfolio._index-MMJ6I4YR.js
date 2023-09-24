@@ -55,7 +55,7 @@ function PortfolioTier() {
         headers: myHeaders,
         redirect: "follow"
       };
-      fetch("http://api.maxiruby.com/api/users/auth/getproject", requestOptions).then((response) => response.text()).then((result) => setProjects(JSON.parse(result).result)).catch((error) => console.log("error", error));
+      fetch("https://api.maxiruby.com/api/users/auth/getproject", requestOptions).then((response) => response.text()).then((result) => setProjects(JSON.parse(result).result)).catch((error) => console.log("error", error));
     };
     getAllProject();
   }, []);

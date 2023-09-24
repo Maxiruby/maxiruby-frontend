@@ -46,7 +46,7 @@ export default function Profile() {
         redirect: "follow",
       };
       const response = fetch(
-        "http://api.maxiruby.com/api/users/auth/update",
+        "https://api.maxiruby.com/api/users/auth/update",
         requestOptions
       );
       const data = await (await response).json();
@@ -93,7 +93,7 @@ export default function Profile() {
         redirect: "follow",
       };
       const response = fetch(
-        "http://api.maxiruby.com/api/users/auth/resetpassword",
+        "https://api.maxiruby.com/api/users/auth/resetpassword",
         requestOptions
       );
       const data = await (await response).json();

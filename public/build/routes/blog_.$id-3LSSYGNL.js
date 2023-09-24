@@ -75,7 +75,7 @@ function BlogDetails() {
         headers: myHeaders,
         redirect: "follow"
       };
-      fetch("http://api.maxiruby.com/api/landing/blogone/" + pathname.split("/")[2], requestOptions).then((response) => response.json()).then((result) => setProjects(result.result)).catch((error) => console.log("error", error));
+      fetch("https://api.maxiruby.com/api/landing/blogone/" + pathname.split("/")[2], requestOptions).then((response) => response.json()).then((result) => setProjects(result.result)).catch((error) => console.log("error", error));
     };
     getAllProject();
   }, []);

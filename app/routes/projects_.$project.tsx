@@ -75,7 +75,7 @@ export default function Project() {
       };
 
       fetch(
-        "http://api.maxiruby.com/api/landing/oneproject/" +
+        "https://api.maxiruby.com/api/landing/oneproject/" +
           pathname.split("/")[2],
         requestOptions
       )
@@ -83,7 +83,7 @@ export default function Project() {
         .then((result: any) => setProjects(result.result))
         .catch((error) => console.log("error", error));
       fetch(
-        "http://api.maxiruby.com/api/landing/tierlist/" +
+        "https://api.maxiruby.com/api/landing/tierlist/" +
           pathname.split("/")[2],
         requestOptions
       )

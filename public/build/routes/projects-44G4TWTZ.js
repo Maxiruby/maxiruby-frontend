@@ -68,7 +68,7 @@ function Projects() {
         headers: myHeaders,
         redirect: "follow"
       };
-      fetch("http://api.maxiruby.com/api/landing/all", requestOptions).then((response) => response.json()).then((result) => setProjects(result.result)).catch((error) => console.log("error", error));
+      fetch("https://api.maxiruby.com/api/landing/all", requestOptions).then((response) => response.json()).then((result) => setProjects(result.result)).catch((error) => console.log("error", error));
     };
     getAllProject();
   }, []);

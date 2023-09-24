@@ -98,7 +98,7 @@ function Login() {
         body: raw,
         redirect: "follow"
       };
-      const response = fetch("http://api.maxiruby.com/api/users/auth/login", requestOptions);
+      const response = fetch("https://api.maxiruby.com/api/users/auth/login", requestOptions);
       const data = await (await response).json();
       console.log(data.user);
       if (data.user) {
