@@ -28,6 +28,7 @@ export default function Projects() {
         "Access-Control-Allow-Origin",
         "https://api.maxiruby.com"
       );
+      
       myHeaders.append("Content-Type", "application/json");
       var requestOptions: any = {
         method: "GET",
