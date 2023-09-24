@@ -24,7 +24,11 @@ export default function Projects() {
   useEffect(() => {
     const getAllProject = async () => {
       var myHeaders = new Headers();
-
+      myHeaders.append(
+        "Access-Control-Allow-Origin",
+        "https://api.maxiruby.com"
+      );
+      myHeaders.append("Access-Control-Allow-Credentials", "true");
       var requestOptions: any = {
         method: "GET",
         headers: myHeaders,
