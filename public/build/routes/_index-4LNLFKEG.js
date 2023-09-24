@@ -731,7 +731,7 @@ if (import.meta) {
     //@ts-expect-error
     "app/routes/_index.tsx"
   );
-  import.meta.hot.lastModified = "1695572333265.4653";
+  import.meta.hot.lastModified = "1695573134282.0676";
 }
 var meta = () => {
   return [{
@@ -751,7 +751,6 @@ function Index() {
   const dispatch = useDispatch();
   let userData = api.get("user");
   userData = JSON.parse(userData);
-  console.log(userData.user, "muzo");
   const gerUSer = async () => {
     if (!user)
       return;
@@ -763,7 +762,6 @@ function Index() {
           Authorization: `Bearer ${userData.token}`
         }
       });
-      console.log(data.result, "muzo");
       localStorage.setItem("profile", JSON.stringify(data.result));
       api.set("user", JSON.stringify({
         ...user,
@@ -783,27 +781,27 @@ function Index() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "flex flex-1 flex-col h-full min-h-[75vh]", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Banner, { user }, void 0, false, {
       fileName: "app/routes/_index.tsx",
-      lineNumber: 79,
+      lineNumber: 77,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(LaunchFeatures, {}, void 0, false, {
       fileName: "app/routes/_index.tsx",
-      lineNumber: 81,
+      lineNumber: 79,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(TierSystem, {}, void 0, false, {
       fileName: "app/routes/_index.tsx",
-      lineNumber: 82,
+      lineNumber: 80,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Partners2, {}, void 0, false, {
       fileName: "app/routes/_index.tsx",
-      lineNumber: 83,
+      lineNumber: 81,
       columnNumber: 7
     }, this)
   ] }, void 0, true, {
     fileName: "app/routes/_index.tsx",
-    lineNumber: 78,
+    lineNumber: 76,
     columnNumber: 10
   }, this);
 }
@@ -819,4 +817,4 @@ export {
   Index as default,
   meta
 };
-//# sourceMappingURL=/build/routes/_index-OB4XIFQS.js.map
+//# sourceMappingURL=/build/routes/_index-4LNLFKEG.js.map

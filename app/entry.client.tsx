@@ -25,7 +25,7 @@ startTransition(() => {
           <PriceContextProvider>
             <ConnectKitProvider
               onConnect={async (kit: any) => {
-                console.log(kit);
+     
 
                 var myHeaders = new Headers();
                 myHeaders.append("Content-Type", "application/json");

@@ -70,12 +70,12 @@ export default function Signup() {
         navigate("/signup/success");
         return;
       }
-      console.log(error);
+
       setError("Invalid credentials");
       setSuccess("");
       setLoading(false);
     } catch (error: any) {
-      console.log(error);
+
       setError(error.message);
       setLoading(false);
     }

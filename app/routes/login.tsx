@@ -58,7 +58,7 @@ export default function Login() {
         requestOptions
       );
       const data = await (await response).json();
-      console.log(data.user);
+
       if (data.user) {
         localStorage.setItem("token", JSON.stringify(data.token));
         localStorage.setItem("profile", JSON.stringify(data.user));
@@ -69,12 +69,12 @@ export default function Login() {
         navigate("/");
         return;
       }
-      console.log(error);
+
       setError("Invalid credentials");
       setSuccess("");
       setLoading(false);
     } catch (error: any) {
-      console.log(error);
+
       setError(error.message);
       setSuccess("");
       setLoading(false);

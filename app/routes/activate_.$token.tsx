@@ -35,7 +35,7 @@ export default function Active() {
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(true);
 
-  console.log(token);
+
 
   useEffect(() => {
     activateAccount();
@@ -43,7 +43,7 @@ export default function Active() {
   const activateAccount = async () => {
     try {
       setLoading(true);
-      console.log(token, "muzo");
+
       const { data } = await axios.post(
         `https://api.maxiruby.com/api/users/auth/activate`,
         { token },

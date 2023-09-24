@@ -23,7 +23,6 @@ export default function Index() {
   const dispatch = useDispatch();
   let userData: any = Cookies.get("user");
   userData = JSON.parse(userData);
-  console.log(userData.user, "muzo");
 
   const gerUSer = async () => {
     if (!user) return;
@@ -36,7 +35,7 @@ export default function Index() {
           },
         }
       );
-      console.log(data.result, "muzo");
+
 
       localStorage.setItem("profile", JSON.stringify(data.result));
       Cookies.set(

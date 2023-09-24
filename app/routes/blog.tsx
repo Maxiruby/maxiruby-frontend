@@ -59,7 +59,7 @@ export default function Blog() {
 }
 
 function BlogCard({ blog }: any) {
-  console.log(blog);
+
 
   return (
     <Link

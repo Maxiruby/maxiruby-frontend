@@ -23,7 +23,7 @@ export default function Portfolio() {
 
   let userData: any = Cookies.get("user");
   userData = JSON.parse(userData);
-  console.log(userData.token, "muzo");
+
 
   const gerUSer = async () => {
     if (!userData.token) return;

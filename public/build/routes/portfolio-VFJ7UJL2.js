@@ -61,7 +61,7 @@ if (import.meta) {
     //@ts-expect-error
     "app/routes/portfolio.tsx"
   );
-  import.meta.hot.lastModified = "1695570597625.662";
+  import.meta.hot.lastModified = "1695573171235.84";
 }
 var meta = () => {
   return [{
@@ -83,7 +83,6 @@ function Portfolio() {
   }));
   let userData = api.get("user");
   userData = JSON.parse(userData);
-  console.log(userData.token, "muzo");
   const gerUSer = async () => {
     if (!userData.token)
       return;
@@ -107,28 +106,28 @@ function Portfolio() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("header", { className: "flex flex-1 flex-col items-center justify-center gap-y-6", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { className: "text-3xl font-medium font-heading", children: "Portfolio" }, void 0, false, {
         fileName: "app/routes/portfolio.tsx",
-        lineNumber: 76,
+        lineNumber: 75,
         columnNumber: 15
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "flex flex-wrap items-center justify-center text-center gap-x-1.5 gap-y-1", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { className: "text-sm text-muted-foreground font-medium uppercase", children: "Wallet Address" }, void 0, false, {
           fileName: "app/routes/portfolio.tsx",
-          lineNumber: 79,
+          lineNumber: 78,
           columnNumber: 17
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { className: "text-sm text-accent font-medium", children: address }, void 0, false, {
           fileName: "app/routes/portfolio.tsx",
-          lineNumber: 82,
+          lineNumber: 81,
           columnNumber: 17
         }, this)
       ] }, void 0, true, {
         fileName: "app/routes/portfolio.tsx",
-        lineNumber: 78,
+        lineNumber: 77,
         columnNumber: 15
       }, this)
     ] }, void 0, true, {
       fileName: "app/routes/portfolio.tsx",
-      lineNumber: 75,
+      lineNumber: 74,
       columnNumber: 13
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "flex flex-1 flex-col items-center justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "flex flex-1 flex-wrap items-center justify-center gap-4", children: [
@@ -136,68 +135,68 @@ function Portfolio() {
         isActive
       }) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Button_default, { type: "button", title: "Tier", variant: isActive ? "primary" : "secondary", children: "Tier" }, void 0, false, {
         fileName: "app/routes/portfolio.tsx",
-        lineNumber: 93,
+        lineNumber: 92,
         columnNumber: 23
       }, this) }, void 0, false, {
         fileName: "app/routes/portfolio.tsx",
-        lineNumber: 90,
+        lineNumber: 89,
         columnNumber: 17
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(NavLink, { to: "/portfolio/idos", end: true, children: ({
         isActive
       }) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Button_default, { type: "button", title: "IDO's Participated", variant: isActive ? "primary" : "secondary", children: "IDO's Participated" }, void 0, false, {
         fileName: "app/routes/portfolio.tsx",
-        lineNumber: 101,
+        lineNumber: 100,
         columnNumber: 23
       }, this) }, void 0, false, {
         fileName: "app/routes/portfolio.tsx",
-        lineNumber: 98,
+        lineNumber: 97,
         columnNumber: 17
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(NavLink, { to: "/portfolio/claims", end: true, children: ({
         isActive
       }) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Button_default, { type: "button", title: "Claims", variant: isActive ? "primary" : "secondary", children: "Claims" }, void 0, false, {
         fileName: "app/routes/portfolio.tsx",
-        lineNumber: 109,
+        lineNumber: 108,
         columnNumber: 23
       }, this) }, void 0, false, {
         fileName: "app/routes/portfolio.tsx",
-        lineNumber: 106,
+        lineNumber: 105,
         columnNumber: 17
       }, this)
     ] }, void 0, true, {
       fileName: "app/routes/portfolio.tsx",
-      lineNumber: 89,
+      lineNumber: 88,
       columnNumber: 15
     }, this) }, void 0, false, {
       fileName: "app/routes/portfolio.tsx",
-      lineNumber: 88,
+      lineNumber: 87,
       columnNumber: 13
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("main", { className: "flex flex-1 flex-col items-center justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Outlet, {}, void 0, false, {
       fileName: "app/routes/portfolio.tsx",
-      lineNumber: 117,
+      lineNumber: 116,
       columnNumber: 15
     }, this) }, void 0, false, {
       fileName: "app/routes/portfolio.tsx",
-      lineNumber: 116,
+      lineNumber: 115,
       columnNumber: 13
     }, this)
   ] }, void 0, true, {
     fileName: "app/routes/portfolio.tsx",
-    lineNumber: 74,
+    lineNumber: 73,
     columnNumber: 11
   }, this) }, void 0, false, {
     fileName: "app/routes/portfolio.tsx",
-    lineNumber: 73,
+    lineNumber: 72,
     columnNumber: 9
   }, this) }, void 0, false, {
     fileName: "app/routes/portfolio.tsx",
-    lineNumber: 72,
+    lineNumber: 71,
     columnNumber: 7
   }, this) }, void 0, false, {
     fileName: "app/routes/portfolio.tsx",
-    lineNumber: 71,
+    lineNumber: 70,
     columnNumber: 10
   }, this);
 }
@@ -213,4 +212,4 @@ export {
   Portfolio as default,
   meta
 };
-//# sourceMappingURL=/build/routes/portfolio-RD5FVC7W.js.map
+//# sourceMappingURL=/build/routes/portfolio-VFJ7UJL2.js.map

@@ -229,7 +229,7 @@ if (import.meta) {
     //@ts-expect-error
     "app/routes/activate_.$token.tsx"
   );
-  import.meta.hot.lastModified = "1695569231972.8499";
+  import.meta.hot.lastModified = "1695573143229.7288";
 }
 var meta = () => {
   return [{
@@ -254,14 +254,12 @@ function Active() {
   const [success, setSuccess] = (0, import_react2.useState)("");
   const [error, setError] = (0, import_react2.useState)("");
   const [loading, setLoading] = (0, import_react2.useState)(true);
-  console.log(token);
   (0, import_react2.useEffect)(() => {
     activateAccount();
   }, [token]);
   const activateAccount = async () => {
     try {
       setLoading(true);
-      console.log(token, "muzo");
       const {
         data
       } = await axios_default.post(`https://api.maxiruby.com/api/users/auth/activate`, {
@@ -290,25 +288,25 @@ function Active() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "flex flex-1 flex-col h-full min-h-[75vh]", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Container, { children: [
     success && /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(ActivateForm, { type: "success", header: "Account verification succeded.", text: success, loading }, void 0, false, {
       fileName: "app/routes/activate_.$token.tsx",
-      lineNumber: 93,
+      lineNumber: 91,
       columnNumber: 23
     }, this),
     error && /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(ActivateForm, { type: "error", header: "Account verification failed.", text: error, loading }, void 0, false, {
       fileName: "app/routes/activate_.$token.tsx",
-      lineNumber: 94,
+      lineNumber: 92,
       columnNumber: 21
     }, this)
   ] }, void 0, true, {
     fileName: "app/routes/activate_.$token.tsx",
-    lineNumber: 92,
+    lineNumber: 90,
     columnNumber: 9
   }, this) }, void 0, false, {
     fileName: "app/routes/activate_.$token.tsx",
-    lineNumber: 91,
+    lineNumber: 89,
     columnNumber: 7
   }, this) }, void 0, false, {
     fileName: "app/routes/activate_.$token.tsx",
-    lineNumber: 90,
+    lineNumber: 88,
     columnNumber: 10
   }, this);
 }
@@ -324,4 +322,4 @@ export {
   Active as default,
   meta
 };
-//# sourceMappingURL=/build/routes/activate_.$token-ZVF7VAQ3.js.map
+//# sourceMappingURL=/build/routes/activate_.$token-QGM4CYOU.js.map

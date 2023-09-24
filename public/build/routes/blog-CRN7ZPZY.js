@@ -44,7 +44,7 @@ if (import.meta) {
     //@ts-expect-error
     "app/routes/blog.tsx"
   );
-  import.meta.hot.lastModified = "1695553141592.3738";
+  import.meta.hot.lastModified = "1695573155052.5005";
 }
 var meta = () => {
   return [{
@@ -113,55 +113,54 @@ _c = Blog;
 function BlogCard({
   blog
 }) {
-  console.log(blog);
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: `/blog/${blog._id}`, className: "flex flex-col gap-y-5 hover:opacity-80 transition-opacity duration-150", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("header", { className: "relative flex flex-col rounded-xl overflow-hidden", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "relative flex flex-1 w-full h-full pb-[52%] overflow-hidden", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "absolute inset-0 w-full h-full overflow-hidden", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Image_default, { src: blog.image, alt: "Blog", width: "100%", height: "100%", objectFit: "cover" }, void 0, false, {
       fileName: "app/routes/blog.tsx",
-      lineNumber: 78,
+      lineNumber: 77,
       columnNumber: 13
     }, this) }, void 0, false, {
       fileName: "app/routes/blog.tsx",
-      lineNumber: 77,
+      lineNumber: 76,
       columnNumber: 11
     }, this) }, void 0, false, {
       fileName: "app/routes/blog.tsx",
-      lineNumber: 76,
+      lineNumber: 75,
       columnNumber: 9
     }, this) }, void 0, false, {
       fileName: "app/routes/blog.tsx",
-      lineNumber: 75,
+      lineNumber: 74,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "flex flex-col gap-y-1", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("strong", { className: "text-xl font-bold", children: blog.title }, void 0, false, {
         fileName: "app/routes/blog.tsx",
-        lineNumber: 84,
+        lineNumber: 83,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { className: "line-clamp-3 font-medium text-sm text-muted-foreground", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { dangerouslySetInnerHTML: {
         __html: `${blog.text}`
       } }, void 0, false, {
         fileName: "app/routes/blog.tsx",
-        lineNumber: 86,
+        lineNumber: 85,
         columnNumber: 11
       }, this) }, void 0, false, {
         fileName: "app/routes/blog.tsx",
-        lineNumber: 85,
+        lineNumber: 84,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { className: "text-xs text-muted-foreground" }, void 0, false, {
         fileName: "app/routes/blog.tsx",
-        lineNumber: 91,
+        lineNumber: 90,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/routes/blog.tsx",
-      lineNumber: 83,
+      lineNumber: 82,
       columnNumber: 7
     }, this)
   ] }, void 0, true, {
     fileName: "app/routes/blog.tsx",
-    lineNumber: 74,
+    lineNumber: 73,
     columnNumber: 10
   }, this);
 }
@@ -176,4 +175,4 @@ export {
   Blog as default,
   meta
 };
-//# sourceMappingURL=/build/routes/blog-TRF4AYPD.js.map
+//# sourceMappingURL=/build/routes/blog-CRN7ZPZY.js.map

@@ -63,7 +63,7 @@ export default function Apply() {
     error: false,
     success: false,
   });
-  console.log(getValues);
+
 
   return (
     <div className="flex flex-1 flex-col h-full min-h-[75vh]">
@@ -105,7 +105,7 @@ function ApplicationForm({
 }: any) {
   const [isVestingEnabled, setIsVestingEnabled] =
     React.useState<boolean>(false);
-  console.log(register);
+
 
   return (
     <form

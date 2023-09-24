@@ -623,7 +623,7 @@ if (import.meta) {
     //@ts-expect-error
     "app/entry.client.tsx"
   );
-  import.meta.hot.lastModified = "1695568159099.4172";
+  import.meta.hot.lastModified = "1695573120596.6755";
 }
 var store = createStore(reducers_default, (0, import_redux_devtools_extension.composeWithDevTools)());
 (0, import_react2.startTransition)(() => {
@@ -633,7 +633,6 @@ var store = createStore(reducers_default, (0, import_redux_devtools_extension.co
       ConnectKitProvider,
       {
         onConnect: async (kit) => {
-          console.log(kit);
           var myHeaders = new Headers();
           myHeaders.append("Content-Type", "application/json");
           myHeaders.append(
@@ -687,4 +686,4 @@ var store = createStore(reducers_default, (0, import_redux_devtools_extension.co
     }, this)
   );
 });
-//# sourceMappingURL=/build/entry.client-FEL2EC3S.js.map
+//# sourceMappingURL=/build/entry.client-6EECZAIA.js.map

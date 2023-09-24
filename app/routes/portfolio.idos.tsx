@@ -40,7 +40,7 @@ export default function PortfolioIDOsParticipated() {
     };
     getAllProject();
   }, []);
-  console.log(projects);
+
 
   return (
     <div className="flex flex-1 flex-col w-full">

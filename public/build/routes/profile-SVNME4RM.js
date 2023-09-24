@@ -60,7 +60,7 @@ if (import.meta) {
     //@ts-expect-error
     "app/routes/profile.tsx"
   );
-  import.meta.hot.lastModified = "1695570573854.3606";
+  import.meta.hot.lastModified = "1695573175794.8076";
 }
 var meta = () => {
   return [{
@@ -164,7 +164,6 @@ function Profile() {
   }));
   let userData = api.get("user");
   userData = JSON.parse(userData);
-  console.log(userData.token, "muzo");
   const gerUSer = async () => {
     if (!users)
       return;
@@ -187,11 +186,11 @@ function Profile() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "flex flex-1 flex-col h-full min-h-[75vh]", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Container, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "flex flex-1 flex-col gap-y-12", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("header", { className: "flex flex-1 flex-col items-center justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { className: "text-3xl font-medium font-heading", children: "Profile Settings" }, void 0, false, {
       fileName: "app/routes/profile.tsx",
-      lineNumber: 159,
+      lineNumber: 158,
       columnNumber: 15
     }, this) }, void 0, false, {
       fileName: "app/routes/profile.tsx",
-      lineNumber: 158,
+      lineNumber: 157,
       columnNumber: 13
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("main", { className: "flex flex-1 flex-col items-center justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Form, { className: "flex flex-1 w-full max-w-[720px] mx-auto", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(FormField, { children: [
@@ -199,65 +198,65 @@ function Profile() {
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(FormGroup, { children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(FormLabel, { optional: true, children: "Username" }, void 0, false, {
             fileName: "app/routes/profile.tsx",
-            lineNumber: 169,
+            lineNumber: 168,
             columnNumber: 23
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Input_default, { type: "text", value: username, placeholder: "Name", onChange: (e) => {
             setUsername(e.target.value);
           }, className: "w-full min-w-[160px]" }, void 0, false, {
             fileName: "app/routes/profile.tsx",
-            lineNumber: 170,
+            lineNumber: 169,
             columnNumber: 23
           }, this)
         ] }, void 0, true, {
           fileName: "app/routes/profile.tsx",
-          lineNumber: 168,
+          lineNumber: 167,
           columnNumber: 21
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(FormGroup, { children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(FormLabel, { optional: true, children: "Surname" }, void 0, false, {
             fileName: "app/routes/profile.tsx",
-            lineNumber: 176,
+            lineNumber: 175,
             columnNumber: 23
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Input_default, { type: "text", value: surname, placeholder: "Surname", onChange: (e) => {
             setSurname(e.target.value);
           }, className: "w-full min-w-[200px]" }, void 0, false, {
             fileName: "app/routes/profile.tsx",
-            lineNumber: 177,
+            lineNumber: 176,
             columnNumber: 23
           }, this)
         ] }, void 0, true, {
           fileName: "app/routes/profile.tsx",
-          lineNumber: 175,
+          lineNumber: 174,
           columnNumber: 21
         }, this)
       ] }, void 0, true, {
         fileName: "app/routes/profile.tsx",
-        lineNumber: 167,
+        lineNumber: 166,
         columnNumber: 19
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(FormGroup, { children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(FormLabel, { children: "Email Adress" }, void 0, false, {
           fileName: "app/routes/profile.tsx",
-          lineNumber: 184,
+          lineNumber: 183,
           columnNumber: 21
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Input_default, { type: "text", value: "", placeholder: profile?.email, onChange: () => {
         }, className: "w-full min-w-[200px]" }, void 0, false, {
           fileName: "app/routes/profile.tsx",
-          lineNumber: 185,
+          lineNumber: 184,
           columnNumber: 21
         }, this)
       ] }, void 0, true, {
         fileName: "app/routes/profile.tsx",
-        lineNumber: 183,
+        lineNumber: 182,
         columnNumber: 19
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(FormGroup, { children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(FormLabel, { children: "Password" }, void 0, false, {
           fileName: "app/routes/profile.tsx",
-          lineNumber: 189,
+          lineNumber: 188,
           columnNumber: 21
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "flex flex-1 items-stretch flex-wrap gap-4", children: [
@@ -265,22 +264,22 @@ function Profile() {
             setPassword(e.target.value);
           }, className: "flex flex-[5] min-w-[200px]" }, void 0, false, {
             fileName: "app/routes/profile.tsx",
-            lineNumber: 191,
+            lineNumber: 190,
             columnNumber: 23
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Button_default, { type: "button", title: "Reset Password", variant: "border", className: "flex-[1] min-w-[200px]", onClick: handleChangePassword, disabled: loading, children: loading ? "Loading..." : "Reset Password" }, void 0, false, {
             fileName: "app/routes/profile.tsx",
-            lineNumber: 195,
+            lineNumber: 194,
             columnNumber: 23
           }, this)
         ] }, void 0, true, {
           fileName: "app/routes/profile.tsx",
-          lineNumber: 190,
+          lineNumber: 189,
           columnNumber: 21
         }, this)
       ] }, void 0, true, {
         fileName: "app/routes/profile.tsx",
-        lineNumber: 188,
+        lineNumber: 187,
         columnNumber: 19
       }, this),
       success ? /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("small", { style: {
@@ -290,7 +289,7 @@ function Profile() {
         success
       ] }, void 0, true, {
         fileName: "app/routes/profile.tsx",
-        lineNumber: 200,
+        lineNumber: 199,
         columnNumber: 30
       }, this) : null,
       error ? /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("small", { style: {
@@ -300,46 +299,46 @@ function Profile() {
         error
       ] }, void 0, true, {
         fileName: "app/routes/profile.tsx",
-        lineNumber: 203,
+        lineNumber: 202,
         columnNumber: 28
       }, this) : null,
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(FormGroup, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Button_default, { onClick: handleUpdateProfile, disabled: loading, type: "button", title: "Save Changes", variant: "primary", className: "w-fit mx-auto px-8", children: loading ? "Loading..." : "Save Changes" }, void 0, false, {
         fileName: "app/routes/profile.tsx",
-        lineNumber: 207,
+        lineNumber: 206,
         columnNumber: 21
       }, this) }, void 0, false, {
         fileName: "app/routes/profile.tsx",
-        lineNumber: 206,
+        lineNumber: 205,
         columnNumber: 19
       }, this)
     ] }, void 0, true, {
       fileName: "app/routes/profile.tsx",
-      lineNumber: 166,
+      lineNumber: 165,
       columnNumber: 17
     }, this) }, void 0, false, {
       fileName: "app/routes/profile.tsx",
-      lineNumber: 165,
+      lineNumber: 164,
       columnNumber: 15
     }, this) }, void 0, false, {
       fileName: "app/routes/profile.tsx",
-      lineNumber: 164,
+      lineNumber: 163,
       columnNumber: 13
     }, this)
   ] }, void 0, true, {
     fileName: "app/routes/profile.tsx",
-    lineNumber: 157,
+    lineNumber: 156,
     columnNumber: 11
   }, this) }, void 0, false, {
     fileName: "app/routes/profile.tsx",
-    lineNumber: 156,
+    lineNumber: 155,
     columnNumber: 9
   }, this) }, void 0, false, {
     fileName: "app/routes/profile.tsx",
-    lineNumber: 155,
+    lineNumber: 154,
     columnNumber: 7
   }, this) }, void 0, false, {
     fileName: "app/routes/profile.tsx",
-    lineNumber: 154,
+    lineNumber: 153,
     columnNumber: 10
   }, this);
 }
@@ -352,7 +351,7 @@ function FormField({
 }) {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "flex flex-1 flex-col justify-center items-center gap-y-6", children }, void 0, false, {
     fileName: "app/routes/profile.tsx",
-    lineNumber: 226,
+    lineNumber: 225,
     columnNumber: 10
   }, this);
 }
@@ -362,7 +361,7 @@ function FormGroup({
 }) {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "flex flex-1 flex-col gap-y-2 w-full", children }, void 0, false, {
     fileName: "app/routes/profile.tsx",
-    lineNumber: 234,
+    lineNumber: 233,
     columnNumber: 10
   }, this);
 }
@@ -372,7 +371,7 @@ function FormRow({
 }) {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "flex flex-1 flex-row flex-wrap gap-4 w-full", children }, void 0, false, {
     fileName: "app/routes/profile.tsx",
-    lineNumber: 240,
+    lineNumber: 239,
     columnNumber: 10
   }, this);
 }
@@ -384,17 +383,17 @@ function FormLabel({
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("label", { className: "flex flex-1 flex-row items-center gap-x-1", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { className: "text-sm font-semibold text-foreground", children }, void 0, false, {
       fileName: "app/routes/profile.tsx",
-      lineNumber: 250,
+      lineNumber: 249,
       columnNumber: 7
     }, this),
     optional && /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { className: "text-xs font-medium text-muted-foreground", children: "(Optional)" }, void 0, false, {
       fileName: "app/routes/profile.tsx",
-      lineNumber: 251,
+      lineNumber: 250,
       columnNumber: 20
     }, this)
   ] }, void 0, true, {
     fileName: "app/routes/profile.tsx",
-    lineNumber: 249,
+    lineNumber: 248,
     columnNumber: 10
   }, this);
 }
@@ -415,4 +414,4 @@ export {
   Profile as default,
   meta
 };
-//# sourceMappingURL=/build/routes/profile-5577RPZZ.js.map
+//# sourceMappingURL=/build/routes/profile-SVNME4RM.js.map
