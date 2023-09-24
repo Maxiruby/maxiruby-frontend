@@ -2,7 +2,7 @@
 
 /usr/bin/git fetch
 
-/usr/bin/git pull origin master 
+/usr/bin/git pull origin main 
 
 /usr/bin/yarn
 
