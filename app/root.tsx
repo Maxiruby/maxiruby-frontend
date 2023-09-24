@@ -63,6 +63,8 @@ import { Theme } from "~/types/context.types";
 import { truncate } from "./utils";
 import { ConnectKitButton } from "connectkit";
 import { useOnRouteChange } from "./hooks/useOnRouteChange";
+import { useDispatch } from "react-redux";
+import Cookies from "js-cookie";
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: globals },
@@ -273,10 +275,18 @@ function AppActions() {
   const auth = useAppStore((store) => store.token);
   const navigate = useNavigate();
   const user = localStorage.getItem("profile");
+  let userData: any = Cookies.get("user");
+  userData = JSON.parse(userData);
   const userToken = localStorage.getItem("token");
+  const dispatch = useDispatch();
+
   const handleLogout = () => {
     localStorage.removeItem("profile");
     localStorage.removeItem("token");
+    Cookies.set("user", "");
+    dispatch({
+      type: "LOGOUT",
+    });
     navigate("/login");
   };
 
@@ -290,7 +300,7 @@ function AppActions() {
       >
         Connect Wallet
       </Button> */}
-      {user ? (
+      {userData.token ? (
         <React.Fragment>
           <ConnectKitButton />
 

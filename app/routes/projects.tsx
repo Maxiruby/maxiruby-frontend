@@ -26,7 +26,7 @@ export default function Projects() {
       var myHeaders = new Headers();
       myHeaders.append(
         "Access-Control-Allow-Origin",
-        "https://api.maxiruby.com"
+        "*"
       );
       
       myHeaders.append("Content-Type", "application/json");

@@ -1,5 +1,9 @@
 import { V2_MetaFunction } from "@remix-run/node";
 import { Form, NavLink, Outlet } from "@remix-run/react";
+import axios from "axios";
+import Cookies from "js-cookie";
+import { useEffect } from "react";
+import { useSelector } from "react-redux";
 import { useAccount } from "wagmi";
 
 // components
@@ -14,7 +18,32 @@ export const meta: V2_MetaFunction = () => {
 };
 
 export default function Portfolio() {
-  const {address} = useAccount()
+  const { address } = useAccount();
+  const { user } = useSelector((user: any) => ({ ...user }));
+
+  let userData: any = Cookies.get("user");
+  userData = JSON.parse(userData);
+  console.log(userData.token, "muzo");
+
+  const gerUSer = async () => {
+    if (!userData.token) return;
+    try {
+      const { data } = await axios.get(
+        `https://api.maxiruby.com/api/users/auth`,
+        {
+          headers: {
+            Authorization: `Bearer ${userData.token}`,
+          },
+        }
+      );
+      localStorage.setItem("profile", JSON.stringify(data.result));
+    } catch (error) {
+      console.log(error);
+    }
+  };
+  useEffect(() => {
+    gerUSer();
+  }, []);
   return (
     <div className="flex flex-1 flex-col h-full min-h-[75vh]">
       <Section>

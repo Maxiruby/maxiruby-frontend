@@ -2,7 +2,8 @@ import { V2_MetaFunction, redirect } from "@remix-run/node";
 import { NavLink } from "@remix-run/react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-
+import { useDispatch } from "react-redux";
+import Cookies from "js-cookie";
 // components
 import Button from "~/components/shared/Button";
 import Image from "~/components/shared/Image";
@@ -24,7 +25,7 @@ export default function Signup() {
   const { profile, setProfile, token, setToken } = useAppStore(
     (store) => store
   );
-
+  const dispatch = useDispatch();
   const navigate = useNavigate();
   const user = localStorage.getItem("token");
 
@@ -64,6 +65,8 @@ export default function Signup() {
         localStorage.setItem("profile", JSON.stringify(data.user));
         setProfile(data.user);
         setToken(data.token);
+        dispatch({ type: "LOGIN", payload: data });
+        Cookies.set("user", JSON.stringify(data));
         navigate("/signup/success");
         return;
       }

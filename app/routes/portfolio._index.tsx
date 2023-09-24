@@ -1,6 +1,7 @@
 import { V2_MetaFunction } from "@remix-run/node";
 import { Form, NavLink, Outlet } from "@remix-run/react";
 import React, { useEffect } from "react";
+import { useSelector } from "react-redux";
 
 // components
 import { Container, Section } from "~/components/Layout";
@@ -15,13 +16,12 @@ export const meta: V2_MetaFunction = () => {
 
 export default function PortfolioTier() {
   const [projects, setProjects] = React.useState<any>([]);
+  const { user } = useSelector((user: any) => ({ ...user }));
+
   useEffect(() => {
     const getAllProject = async () => {
       var myHeaders = new Headers();
-      myHeaders.append(
-        "Authorization",
-        "Bearer " + localStorage.getItem("token")?.replace(/['"]+/g, "")
-      );
+      myHeaders.append("Authorization", "Bearer " + user.token);
 
       var requestOptions: any = {
         method: "GET",

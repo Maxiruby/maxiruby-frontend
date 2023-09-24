@@ -11,47 +11,54 @@ import { ConnectKitProvider } from "connectkit";
 import { WagmiConfig } from "wagmi";
 import { config } from "./wagmi";
 import { PriceContextProvider } from "./context/priceContext";
-
+import { createStore } from "redux";
+import { Provider } from "react-redux";
+import { composeWithDevTools } from "redux-devtools-extension";
+import rootReducer from "./reducers";
+const store = createStore(rootReducer, composeWithDevTools());
 startTransition(() => {
   hydrateRoot(
     document,
     <StrictMode>
-      <WagmiConfig config={config}>
-        <PriceContextProvider>
-          <ConnectKitProvider
-            onConnect={async (kit: any) => {
-              console.log(kit);
+      <Provider store={store}>
+        <WagmiConfig config={config}>
+          <PriceContextProvider>
+            <ConnectKitProvider
+              onConnect={async (kit: any) => {
+                console.log(kit);
 
-              var myHeaders = new Headers();
-              myHeaders.append("Content-Type", "application/json");
-              myHeaders.append(
-                "Authorization",
-                "Bearer " + localStorage.getItem("token")?.replace(/['"]+/g, "")
-              );
-              var raw = JSON.stringify({
-                wallet: kit.address,
-              });
+                var myHeaders = new Headers();
+                myHeaders.append("Content-Type", "application/json");
+                myHeaders.append(
+                  "Authorization",
+                  "Bearer " +
+                    localStorage.getItem("token")?.replace(/['"]+/g, "")
+                );
+                var raw = JSON.stringify({
+                  wallet: kit.address,
+                });
 
-              var requestOptions: any = {
-                method: "POST",
-                headers: myHeaders,
-                body: raw,
-                redirect: "follow",
-              };
+                var requestOptions: any = {
+                  method: "POST",
+                  headers: myHeaders,
+                  body: raw,
+                  redirect: "follow",
+                };
 
-              fetch(
-                "https://api.maxiruby.com/api/users/auth/wallet",
-                requestOptions
-              )
-                .then((response) => response.text())
-                .then((result) => console.log(result))
-                .catch((error) => console.log("error", error));
-            }}
-          >
-            <RemixBrowser />
-          </ConnectKitProvider>
-        </PriceContextProvider>
-      </WagmiConfig>
+                fetch(
+                  "https://api.maxiruby.com/api/users/auth/wallet",
+                  requestOptions
+                )
+                  .then((response) => response.text())
+                  .then((result) => console.log(result))
+                  .catch((error) => console.log("error", error));
+              }}
+            >
+              <RemixBrowser />
+            </ConnectKitProvider>
+          </PriceContextProvider>
+        </WagmiConfig>
+      </Provider>
     </StrictMode>
   );
 });

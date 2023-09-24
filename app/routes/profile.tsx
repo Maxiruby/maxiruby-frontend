@@ -1,7 +1,10 @@
 import { V2_MetaFunction } from "@remix-run/node";
 import { Form, useNavigate } from "@remix-run/react";
+import axios from "axios";
 import { ConnectKitButton } from "connectkit";
-import { useState } from "react";
+import Cookies from "js-cookie";
+import { useEffect, useState } from "react";
+import { useSelector } from "react-redux";
 
 // components
 import { Container, Section } from "~/components/Layout";
@@ -19,6 +22,7 @@ export default function Profile() {
   const navigate = useNavigate();
   //@ts-ignore
   const profile: any = JSON.parse(localStorage?.getItem("profile"));
+  const { user } = useSelector((user: any) => ({ ...user }));
   const [username, setUsername] = useState(profile?.username);
   const [surname, setSurname] = useState(profile?.surname);
   const [success, setSuccess] = useState("");
@@ -35,10 +39,7 @@ export default function Profile() {
         username,
         surname,
       });
-      myHeaders.append(
-        "Authorization",
-        "Bearer " + localStorage.getItem("token")?.replace(/['"]+/g, "")
-      );
+      myHeaders.append("Authorization", "Bearer " + user.token);
       var requestOptions: any = {
         method: "POST",
         headers: myHeaders,
@@ -82,10 +83,7 @@ export default function Profile() {
       var raw = JSON.stringify({
         newpassword: password,
       });
-      myHeaders.append(
-        "Authorization",
-        "Bearer " + localStorage.getItem("token")?.replace(/['"]+/g, "")
-      );
+      myHeaders.append("Authorization", "Bearer " + user.token);
       var requestOptions: any = {
         method: "POST",
         headers: myHeaders,
@@ -111,6 +109,31 @@ export default function Profile() {
       setSuccess("");
     }
   };
+  const { users } = useSelector((user: any) => ({ ...user }));
+
+  let userData: any = Cookies.get("user");
+  userData = JSON.parse(userData);
+  console.log(userData.token, "muzo");
+
+  const gerUSer = async () => {
+    if (!users) return;
+    try {
+      const { data } = await axios.get(
+        `https://api.maxiruby.com/api/users/auth`,
+        {
+          headers: {
+            Authorization: `Bearer ${userData.token}`,
+          },
+        }
+      );
+      localStorage.setItem("profile", JSON.stringify(data.result));
+    } catch (error) {
+      console.log(error);
+    }
+  };
+  useEffect(() => {
+    gerUSer();
+  }, []);
   return (
     <div className="flex flex-1 flex-col h-full min-h-[75vh]">
       <Section>

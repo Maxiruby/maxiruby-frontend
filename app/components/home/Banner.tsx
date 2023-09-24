@@ -6,11 +6,13 @@ import { Container } from "~/components/Layout";
 // config
 import { Images } from "~/config";
 import { Link, NavLink } from "@remix-run/react";
+import SendVerification from "../shared/SendVerification";
 
-export default function Banner() {
+export default function Banner({ user }: any) {
   return (
     <div className="relative flex flex-1 flex-col w-full h-full pb-16">
       <Container>
+        {user && user.verified === false && <SendVerification user={user} />}
         <div className="relative flex flex-1 flex-col justify-center items-center py-14">
           <div className="absolute top-0 w-screen -mt-24 -z-1 pointer-events-none">
             <div className="relative inset-0 w-full h-0 pb-[61.783525291304635%]">

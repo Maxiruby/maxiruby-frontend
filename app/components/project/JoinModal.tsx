@@ -17,6 +17,7 @@ import PriceContext from "~/context/priceContext";
 import { useAccount } from "wagmi";
 import Web3 from "web3";
 import DotLoader from "react-spinners/ClipLoader";
+import { useSelector } from "react-redux";
 export default function JoinModal({
   project,
   trigger,
@@ -25,7 +26,7 @@ export default function JoinModal({
   trigger: React.ReactNode;
 }) {
   const prices = useContext(PriceContext);
-
+  const { user } = useSelector((user: any) => ({ ...user }));
   const { address } = useAccount();
   const [loader, setLoader] = useState(false);
   const [inp, setInp] = useState("");

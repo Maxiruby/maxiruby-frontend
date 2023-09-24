@@ -1,7 +1,8 @@
 import { V2_MetaFunction, redirect } from "@remix-run/node";
 import { NavLink, useNavigate } from "@remix-run/react";
 import { useState } from "react";
-
+import { useDispatch } from "react-redux";
+import Cookies from "js-cookie";
 // components
 import Button from "~/components/shared/Button";
 import Image from "~/components/shared/Image";
@@ -25,7 +26,7 @@ export default function Login() {
 
   const navigate = useNavigate();
   const user = localStorage.getItem("token");
-
+  const dispatch = useDispatch();
   // if (user) return navigate("/");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -63,6 +64,8 @@ export default function Login() {
         localStorage.setItem("profile", JSON.stringify(data.user));
         setProfile(data.user);
         setToken(data.token);
+        dispatch({ type: "LOGIN", payload: data });
+        Cookies.set("user", JSON.stringify(data));
         navigate("/");
         return;
       }

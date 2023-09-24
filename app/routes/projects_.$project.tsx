@@ -20,6 +20,7 @@ import ClaimModal from "~/components/project/ClaimModal";
 import JoinModal from "~/components/project/JoinModal";
 import PriceContext from "~/context/priceContext";
 import WhitelistModal from "~/components/project/WhitelistModal";
+import { useSelector } from "react-redux";
 
 export const loader: LoaderFunction = ({ params }) => {
   const projectId = Number(params.project);
@@ -48,7 +49,7 @@ export default function Project() {
   const prices = useContext(PriceContext);
   const { project } = useLoaderData<typeof loader>();
   const { pathname } = useLocation();
-
+  const { user } = useSelector((user: any) => ({ ...user }));
   const segments = pathname.split("/");
   const [projectStatus, setProjectStatus] = React.useState<
     "open" | "upcoming" | "closed"
@@ -214,7 +215,12 @@ export default function Project() {
                               type="button"
                               title="Join"
                               variant="primary"
-                              disabled={projects.status !== "claim" || !profile}
+                              disabled={
+                                projects.status !== "claim" ||
+                                !profile ||
+                                !user.user.verified ||
+                                profile.tier === "None"
+                              }
                             >
                               Join
                             </Button>
