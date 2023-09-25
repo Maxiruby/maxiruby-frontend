@@ -37,7 +37,7 @@ export default function JoinModal({
   const [bnbPrice, setBnbPrice] = useState("");
   const busd = prices.BUSD;
   const wbnb = prices.WBNB;
-  const swap_rate = Number(project.project_swap_rate);
+  const swap_rate = Number(project.price);
   const calucalte = (token: any) => {
     const tokenPrice = busd / swap_rate;
     setToken(token);
@@ -58,12 +58,12 @@ export default function JoinModal({
     const balance0ETH = await provider.getBalance(address);
     const bnbValue = Web3.utils.fromWei(balance0ETH.toString(), "ether");
     const contract = new ethers.Contract(
-      "0x8B7375ec99572Ce2a1Bda223B6Cf39Ca533cA7Df",
+      "0x0DC6247f0b52363aB920369D39f7f801dE41902D",
       ido,
       signer
     );
     let t = new ethers.Contract(
-      "0xdB2d1Ed9e177d7907345e272305A319a412e8FF7", // muzman token
+      "0x90e650225178dc0dDd49ad238FDF4CA2CCFE6f25", // muzman token
       Wbnbabi,
       signer
     );
@@ -102,7 +102,7 @@ export default function JoinModal({
     const signer = provider.getSigner();
 
     const balanceUSDT = new ethers.Contract(
-      "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee", // muzman token
+      "0x90e650225178dc0dDd49ad238FDF4CA2CCFE6f25", // muzman token
       Wbnbabi,
       provider
     );
@@ -113,18 +113,18 @@ export default function JoinModal({
     if (Number(balance) < Number(price))
       return setError("You don't have enough USDT");
     const contract = new ethers.Contract(
-      "0x8B7375ec99572Ce2a1Bda223B6Cf39Ca533cA7Df",
+      "0x0DC6247f0b52363aB920369D39f7f801dE41902D",
       ido,
       signer
     );
     let t = new ethers.Contract(
-      "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee", // muzman token
+      "0x90e650225178dc0dDd49ad238FDF4CA2CCFE6f25", // muzman token
       Wbnbabi,
       signer
     );
     try {
       await t.approve(
-        "0x8B7375ec99572Ce2a1Bda223B6Cf39Ca533cA7Df",
+        "0x0DC6247f0b52363aB920369D39f7f801dE41902D",
         Web3.utils.toWei(price, "ether")
       );
       const add = await contract.buyWithUSDT(
@@ -202,6 +202,26 @@ export default function JoinModal({
     }
     return (soldTokens / totalTokens) * 100;
   }
+  const getAlc = async () => {
+    //@ts-ignore
+    const provider = new ethers.providers.Web3Provider(window?.ethereum);
+    await provider.send("eth_requestAccounts", []); // <- this promps user to connect metamask
+    const signer = provider.getSigner();
+
+    const contract = new ethers.Contract(
+      "0x0DC6247f0b52363aB920369D39f7f801dE41902D",
+      ido,
+      signer
+    );
+
+    console.log("mmmm");
+
+    const deneme = await contract.userVesting(
+      "0x87CFd2Dac960FFF01892919C4df040E2dEdcFF2c",
+      7
+    );
+    console.log(parseInt(deneme.claimedAmount.toString(), 16));
+  };
   useEffect(() => {
     const getAlc = async () => {
       //@ts-ignore
@@ -210,32 +230,17 @@ export default function JoinModal({
       const signer = provider.getSigner();
 
       const contract = new ethers.Contract(
-        "0x8B7375ec99572Ce2a1Bda223B6Cf39Ca533cA7Df",
+        "0x0DC6247f0b52363aB920369D39f7f801dE41902D",
         ido,
         signer
       );
-      // const tier1 = await contract.maxAllocaPerUserTier();
-      const tier2 = await contract.maxAllocaPerUserTierTwo();
-      const tier3 = await contract.maxAllocaPerUserTierThree();
-      const tier4 = await contract.maxAllocaPerUserTierFour();
-      const tier5 = await contract.maxAllocaPerUserTierFive();
-      const tier2max = await contract.minAllocaPerUserTierTwo();
-      const tier3max = await contract.minAllocaPerUserTierThree();
-      const tier4max = await contract.minAllocaPerUserTierFour();
-      const tier5max = await contract.minAllocaPerUserTierFive();
-      console.log(
-        Web3.utils.fromWei(tier2, "ether"),
-        Web3.utils.fromWei(tier3, "ether"),
-        Web3.utils.fromWei(tier4, "ether"),
-        Web3.utils.fromWei(tier5, "ether"),
-        "-----------------",
-        "-----------------",
-        "-----------------",
-        Web3.utils.fromWei(tier2max, "ether"),
-        Web3.utils.fromWei(tier3max, "ether"),
-        Web3.utils.fromWei(tier4max, "ether"),
-        Web3.utils.fromWei(tier5max, "ether")
+
+      const deneme = await contract.userVesting(
+        "0x87CFd2Dac960FFF01892919C4df040E2dEdcFF2c",
+        7
       );
+
+      console.log(deneme);
     };
     getAlc();
   }, []);
@@ -369,6 +374,7 @@ export default function JoinModal({
               " Claim USDT"
             )}
           </Button>
+          <button onClick={getAlc}>getAlc</button>
         </DialogFooter>
         <div style={{ width: "100%", textAlign: "center" }}>
           {error && <p className="text-red-500 text-sm">{error}</p>}

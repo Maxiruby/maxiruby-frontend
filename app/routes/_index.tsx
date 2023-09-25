@@ -20,12 +20,14 @@ export const meta: V2_MetaFunction = () => {
 
 export default function Index() {
   const { user } = useSelector((user: any) => ({ ...user }));
+  const profile = localStorage.getItem("profile");
   const dispatch = useDispatch();
   let userData: any = Cookies.get("user");
-  userData = JSON.parse(userData);
+;
 
   const gerUSer = async () => {
-    if (!user) return;
+    if (!user ) return;
+    userData = JSON.parse(userData);
     try {
       const { data } = await axios.get(
         `https://api.maxiruby.com/api/users/auth`,
@@ -35,7 +37,6 @@ export default function Index() {
           },
         }
       );
-
 
       localStorage.setItem("profile", JSON.stringify(data.result));
       Cookies.set(

@@ -20,12 +20,19 @@ export default function SendVerification({ user }: any) {
     }
   };
   return (
-    <div className="send_verification">
-      <span>
+    <div className="send_verification" style={{ textAlign: "center" }}>
+      <span
+        style={{
+          color: "#EBDE14",
+          fontSize: "1.2rem",
+          fontWeight: "bold",
+        }}
+      >
         Your account is not verified,verify your account before it gets deleted
         after a month from creating.
       </span>
       <a
+       
         onClick={() => {
           sendVerificationLink();
         }}

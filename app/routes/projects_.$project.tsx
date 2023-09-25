@@ -216,10 +216,7 @@ export default function Project() {
                               title="Join"
                               variant="primary"
                               disabled={
-                                projects.status !== "claim" ||
-                                !profile ||
-                                !user.user.verified ||
-                                profile.tier === "None"
+                                projects.status !== "claim" 
                               }
                             >
                               Join

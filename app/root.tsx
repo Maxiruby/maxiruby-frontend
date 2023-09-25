@@ -275,8 +275,7 @@ function AppActions() {
   const auth = useAppStore((store) => store.token);
   const navigate = useNavigate();
   const user = localStorage.getItem("profile");
-  let userData: any = Cookies.get("user");
-  userData = JSON.parse(userData);
+
   const userToken = localStorage.getItem("token");
   const dispatch = useDispatch();
 
@@ -300,7 +299,7 @@ function AppActions() {
       >
         Connect Wallet
       </Button> */}
-      {userData.token ? (
+      {user ? (
         <React.Fragment>
           <ConnectKitButton />
 

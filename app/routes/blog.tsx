@@ -59,8 +59,6 @@ export default function Blog() {
 }
 
 function BlogCard({ blog }: any) {
-
-
   return (
     <Link
       to={`/blog/${blog._id}`}

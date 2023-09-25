@@ -60,7 +60,7 @@ export default function Project({ project }: any) {
             <li className="flex flex-row items-center justify-between gap-x-3">
               <strong className="text-lg">Access</strong>
               <span className="text-lg text-foreground/60 text-semibold">
-                {project.project_total_user}
+                {project.whitelist ? "Private" : "Public"}
               </span>
             </li>
           </ul>
@@ -92,7 +92,7 @@ export default function Project({ project }: any) {
                 )}
                 %
               </span>
-              <span>{project.project_total_fund_participated}</span>
+              <span>{Number(project.selled)}</span>
             </div>
           </div>
         </main>
