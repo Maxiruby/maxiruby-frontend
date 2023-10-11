@@ -50,14 +50,9 @@ function Feature({ feature, index }: { feature: FeatureType; index: number }) {
         <p className="text-muted-foreground">{feature.description}</p>
 
         <div className="flex flex-col gap-y-3">
-          <div className="flex items-start justify-start gap-x-2">
-            <span className="flex w-1 h-1 bg-accent rounded-full" />
-            <span className="text-xl leading-none">{feature.count}</span>
-          </div>
+          <div className="flex items-start justify-start gap-x-2"></div>
 
-          <span className="text-sm text-muted-foreground font-medium">
-            {feature.mark}
-          </span>
+          <span className="text-sm text-muted-foreground font-medium"></span>
         </div>
       </main>
     </div>

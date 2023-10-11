@@ -8,12 +8,9 @@ export type SocialMediaLink = {
 export type Feature = {
   title: string;
   description: string;
-  count: string;
-  mark: string;
 };
 
 export type Tier = {
-  
   tier: "bronze" | "silver" | "gold" | "platinum" | "ruby" | "blue diamond";
   staking_requirement: string;
   staking_length_required: string;

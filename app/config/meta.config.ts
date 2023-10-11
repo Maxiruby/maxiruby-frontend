@@ -108,32 +108,24 @@ export const HelpfulLinks = {
 
 export const Features: Feature[] = [
   {
-    title: "Selective Curation of Valuable Projects",
+    title: "Reliability",
     description:
-      "MaxiRuby Launchpad offers meticulously curated projects to provide the community access to the most valuable opportunities. This curation ensures secure and profitable investment opportunities for investors.",
-    count: "000000",
-    mark: "XXXXXXX",
+      "Security is our top priority, and we take the highest security measures to protect our users' assets.",
   },
   {
-    title: "Fast and Secure Token Purchase",
+    title: "Supporting Projects",
     description:
-      "MaxiRuby facilitates swift and secure token purchases through smart contracts and reliable payment methods. Participants can easily acquire tokens with a high level of security.",
-    count: "000000",
-    mark: "XXXXXXX",
+      "We assist in successfully funding and growing crypto projects, thereby adding value to our community.",
   },
   {
-    title: "Accessibility with Low Gas Fees",
+    title: "User-Centric",
     description:
-      "Get big, quick. Solana is made to handle thousands of transactions per second, and fees for both developers and users remain less than $0.01.",
-    count: "000000",
-    mark: "XXXXXXX",
+      "We've designed our platform to maximize the user experience and focus on our users' needs.",
   },
   {
-    title: "Community-Centric Interaction",
+    title: "Investing in the Future",
     description:
-      "MaxiRuby Launchpad fosters interaction between the community, projects, and teams. Users can contribute to project developments, ask questions, and provide feedback. The community plays a pivotal role in the success of projects.",
-    count: "000000",
-    mark: "XXXXXXX",
+      "We believe in exploring the potential of the crypto world and continuously work to support the future growth of projects.      ",
   },
 ];
 

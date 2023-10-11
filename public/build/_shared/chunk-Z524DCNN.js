@@ -86,7 +86,7 @@ if (import.meta) {
     //@ts-expect-error
     "app/config/meta.config.ts"
   );
-  import.meta.hot.lastModified = "1695297940759.79";
+  import.meta.hot.lastModified = "1697012560755.387";
 }
 var Social = [
   {
@@ -192,28 +192,20 @@ var HelpfulLinks = {
 };
 var Features = [
   {
-    title: "Selective Curation of Valuable Projects",
-    description: "MaxiRuby Launchpad offers meticulously curated projects to provide the community access to the most valuable opportunities. This curation ensures secure and profitable investment opportunities for investors.",
-    count: "000000",
-    mark: "XXXXXXX"
+    title: "Reliability",
+    description: "Security is our top priority, and we take the highest security measures to protect our users' assets."
   },
   {
-    title: "Fast and Secure Token Purchase",
-    description: "MaxiRuby facilitates swift and secure token purchases through smart contracts and reliable payment methods. Participants can easily acquire tokens with a high level of security.",
-    count: "000000",
-    mark: "XXXXXXX"
+    title: "Supporting Projects",
+    description: "We assist in successfully funding and growing crypto projects, thereby adding value to our community."
   },
   {
-    title: "Accessibility with Low Gas Fees",
-    description: "Get big, quick. Solana is made to handle thousands of transactions per second, and fees for both developers and users remain less than $0.01.",
-    count: "000000",
-    mark: "XXXXXXX"
+    title: "User-Centric",
+    description: "We've designed our platform to maximize the user experience and focus on our users' needs."
   },
   {
-    title: "Community-Centric Interaction",
-    description: "MaxiRuby Launchpad fosters interaction between the community, projects, and teams. Users can contribute to project developments, ask questions, and provide feedback. The community plays a pivotal role in the success of projects.",
-    count: "000000",
-    mark: "XXXXXXX"
+    title: "Investing in the Future",
+    description: "We believe in exploring the potential of the crypto world and continuously work to support the future growth of projects.      "
   }
 ];
 var Tiers = [
@@ -299,4 +291,4 @@ export {
   Partners,
   meta_config_exports
 };
-//# sourceMappingURL=/build/_shared/chunk-3YVVTRYT.js.map
+//# sourceMappingURL=/build/_shared/chunk-Z524DCNN.js.map

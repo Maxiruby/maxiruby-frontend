@@ -376,8 +376,19 @@ function AppFooter() {
                 </NavLink>
 
                 <p className="text-muted-foreground text-sm font-medium">
-                  A Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
+                  Maxiruby.com is a crypto launchpad platform that represents an
+                  exciting future in the crypto world. Our mission goes beyond
+                  providing a secure and user-friendly solution for crypto
+                  projects to have a successful start.
+                </p>
+                <p className="text-muted-foreground text-sm font-medium">
+                  The Maxiruby.com team combines its experience in the crypto
+                  industry with the goal of making the crypto world more
+                  accessible and rewarding. In the near future, users holding
+                  Maxi tokens and tokens from projects launched on our platform
+                  will have the opportunity to earn exclusive discounts and
+                  rewards from numerous shopping brands in both Turkey and
+                  worldwide.
                 </p>
               </div>
             </div>

@@ -19,7 +19,7 @@ import {
   Images,
   Partners,
   meta_config_exports
-} from "/build/_shared/chunk-3YVVTRYT.js";
+} from "/build/_shared/chunk-Z524DCNN.js";
 import {
   Image_default
 } from "/build/_shared/chunk-R2JPBEQ2.js";
@@ -154,7 +154,7 @@ if (import.meta) {
     //@ts-expect-error
     "app/components/home/Banner.tsx"
   );
-  import.meta.hot.lastModified = "1695583461522.341";
+  import.meta.hot.lastModified = "1697012475687.434";
 }
 function Banner({
   user
@@ -272,7 +272,7 @@ if (import.meta) {
     //@ts-expect-error
     "app/components/home/LaunchFeatures.tsx"
   );
-  import.meta.hot.lastModified = "1695297940748.9314";
+  import.meta.hot.lastModified = "1697012536821.3518";
 }
 function LaunchFeatures() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(Container, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "flex flex-1 flex-row flex-wrap justify-between items-start gap-8 lg:gap-24", children: [
@@ -351,25 +351,14 @@ function Feature({
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "flex flex-col gap-y-3", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "flex items-start justify-start gap-x-2", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("span", { className: "flex w-1 h-1 bg-accent rounded-full" }, void 0, false, {
-            fileName: "app/components/home/LaunchFeatures.tsx",
-            lineNumber: 66,
-            columnNumber: 13
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("span", { className: "text-xl leading-none", children: feature.count }, void 0, false, {
-            fileName: "app/components/home/LaunchFeatures.tsx",
-            lineNumber: 67,
-            columnNumber: 13
-          }, this)
-        ] }, void 0, true, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "flex items-start justify-start gap-x-2" }, void 0, false, {
           fileName: "app/components/home/LaunchFeatures.tsx",
           lineNumber: 65,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("span", { className: "text-sm text-muted-foreground font-medium", children: feature.mark }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("span", { className: "text-sm text-muted-foreground font-medium" }, void 0, false, {
           fileName: "app/components/home/LaunchFeatures.tsx",
-          lineNumber: 70,
+          lineNumber: 67,
           columnNumber: 11
         }, this)
       ] }, void 0, true, {
@@ -831,4 +820,4 @@ export {
   Index as default,
   meta
 };
-//# sourceMappingURL=/build/routes/_index-OVKWYEQX.js.map
+//# sourceMappingURL=/build/routes/_index-EO2SQ76D.js.map

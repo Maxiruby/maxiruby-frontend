@@ -413,9 +413,6 @@ body {
 .invisible {
   visibility: hidden;
 }
-.static {
-  position: static;
-}
 .fixed {
   position: fixed;
 }
@@ -2591,10 +2588,6 @@ img {
   .sm\:top-auto {
     top: auto;
   }
-  .sm\:mx-0 {
-    margin-left: 0;
-    margin-right: 0;
-  }
   .sm\:block {
     display: block;
   }
@@ -2752,4 +2745,4 @@ img {
 .\[\&\:has\(\[aria-selected\]\)\]\:bg-secondary:has([aria-selected]) {
   background-color: hsl(var(--secondary));
 }
-/*# sourceMappingURL=/build/_assets/globals-EBLFN64B.css.map */
+/*# sourceMappingURL=/build/_assets/globals-7RHYPLOO.css.map */

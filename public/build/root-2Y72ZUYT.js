@@ -75,7 +75,7 @@ import {
 import {
   Images,
   meta_config_exports
-} from "/build/_shared/chunk-3YVVTRYT.js";
+} from "/build/_shared/chunk-Z524DCNN.js";
 import {
   Image_default
 } from "/build/_shared/chunk-R2JPBEQ2.js";
@@ -121,7 +121,7 @@ var import_react10 = __toESM(require_react());
 var cssBundleHref = false ? void 0 : void 0;
 
 // app/static/globals.css
-var globals_default = "/build/_assets/globals-NYOD2D4E.css";
+var globals_default = "/build/_assets/globals-3SI43W55.css";
 
 // app/components/shared/Toast.tsx
 var import_react2 = __toESM(require_react());
@@ -3245,9 +3245,14 @@ function AppFooter() {
           lineNumber: 317,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("p", { className: "text-muted-foreground text-sm font-medium", children: "A Lorem Ipsum is simply dummy text of the printing and typesetting industry." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("p", { className: "text-muted-foreground text-sm font-medium", children: "Maxiruby.com is a crypto launchpad platform that represents an exciting future in the crypto world. Our mission goes beyond providing a secure and user-friendly solution for crypto projects to have a successful start." }, void 0, false, {
           fileName: "app/root.tsx",
           lineNumber: 322,
+          columnNumber: 17
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("p", { className: "text-muted-foreground text-sm font-medium", children: "The Maxiruby.com team combines its experience in the crypto industry with the goal of making the crypto world more accessible and rewarding. In the near future, users holding Maxi tokens and tokens from projects launched on our platform will have the opportunity to earn exclusive discounts and rewards from numerous shopping brands in both Turkey and worldwide." }, void 0, false, {
+          fileName: "app/root.tsx",
+          lineNumber: 328,
           columnNumber: 17
         }, this)
       ] }, void 0, true, {
@@ -3262,25 +3267,25 @@ function AppFooter() {
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("nav", { role: "navigation", className: "flex flex-1 flex-wrap items-start justify-center gap-5", children: Object.entries(meta_config_exports.HelpfulLinks).map(([key, values], index) => /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "flex flex-col min-w-[120px] gap-y-4", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("h6", { className: "text-xl font-semibold capitalize", children: key }, void 0, false, {
           fileName: "app/root.tsx",
-          lineNumber: 334,
+          lineNumber: 345,
           columnNumber: 21
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("ul", { className: "flex flex-col gap-y-2", children: values.map((v, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Link, { to: v.path, target: v.target, rel: v.target === "_blank" ? "norefeerer noopenner" : "", className: "text-muted-foreground text-sm font-medium hover:text-foreground transition-colors duration-150", children: v.title }, i, false, {
           fileName: "app/root.tsx",
-          lineNumber: 337,
+          lineNumber: 348,
           columnNumber: 45
         }, this)) }, void 0, false, {
           fileName: "app/root.tsx",
-          lineNumber: 336,
+          lineNumber: 347,
           columnNumber: 21
         }, this)
       ] }, index, true, {
         fileName: "app/root.tsx",
-        lineNumber: 332,
+        lineNumber: 343,
         columnNumber: 86
       }, this)) }, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 330,
+        lineNumber: 341,
         columnNumber: 13
       }, this)
     ] }, void 0, true, {
@@ -3297,33 +3302,33 @@ function AppFooter() {
         "All rights reserved"
       ] }, void 0, true, {
         fileName: "app/root.tsx",
-        lineNumber: 348,
+        lineNumber: 359,
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "flex items-center gap-x-3", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Link, { to: "https://docs.balancenetwork.io/views/About/aboutus.html", target: "_blank", rel: "norefeerer noopenner", className: "hover:text-foreground transition-colors duration-150", children: "Disclaimer" }, void 0, false, {
           fileName: "app/root.tsx",
-          lineNumber: 353,
+          lineNumber: 364,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Link, { to: "https://docs.balancenetwork.io/views/About/privacypolicy.html", target: "_blank", rel: "norefeerer noopenner", className: "hover:text-foreground transition-colors duration-150", children: "Privacy Policy" }, void 0, false, {
           fileName: "app/root.tsx",
-          lineNumber: 357,
+          lineNumber: 368,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Link, { to: "https://docs.balancenetwork.io/views/About/termsofuse.html", target: "_blank", rel: "norefeerer noopenner", className: "hover:text-foreground transition-colors duration-150", children: "Terms & Conditions" }, void 0, false, {
           fileName: "app/root.tsx",
-          lineNumber: 361,
+          lineNumber: 372,
           columnNumber: 15
         }, this)
       ] }, void 0, true, {
         fileName: "app/root.tsx",
-        lineNumber: 352,
+        lineNumber: 363,
         columnNumber: 13
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.tsx",
-      lineNumber: 347,
+      lineNumber: 358,
       columnNumber: 11
     }, this)
   ] }, void 0, true, {
@@ -3377,4 +3382,4 @@ export {
    * @license MIT
    *)
 */
-//# sourceMappingURL=/build/root-E7R3G5S2.js.map
+//# sourceMappingURL=/build/root-2Y72ZUYT.js.map
