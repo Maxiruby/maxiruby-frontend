@@ -63,14 +63,16 @@ import { Theme } from "~/types/context.types";
 import { truncate } from "./utils";
 import { ConnectKitButton } from "connectkit";
 import { useOnRouteChange } from "./hooks/useOnRouteChange";
-import { useDispatch } from "react-redux";
-import Cookies from "js-cookie";
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: globals },
+  {
+    rel: "icon",
+    href: "/build/favicon.svg",
+    type: "image/png",
+  },
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
   { rel: "preconnect", href: "https://fonts.gstatic.com" },
-  { rel: "icon", href: "/favicon.svg", type: "image/x-icon" },
   {
     rel: "stylesheet",
     href: "https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700&display=swap",
@@ -275,17 +277,10 @@ function AppActions() {
   const auth = useAppStore((store) => store.token);
   const navigate = useNavigate();
   const user = localStorage.getItem("profile");
-
   const userToken = localStorage.getItem("token");
-  const dispatch = useDispatch();
-
   const handleLogout = () => {
     localStorage.removeItem("profile");
     localStorage.removeItem("token");
-    Cookies.set("user", "");
-    dispatch({
-      type: "LOGOUT",
-    });
     navigate("/login");
   };
 
@@ -376,19 +371,8 @@ function AppFooter() {
                 </NavLink>
 
                 <p className="text-muted-foreground text-sm font-medium">
-                  Maxiruby.com is a crypto launchpad platform that represents an
-                  exciting future in the crypto world. Our mission goes beyond
-                  providing a secure and user-friendly solution for crypto
-                  projects to have a successful start.
-                </p>
-                <p className="text-muted-foreground text-sm font-medium">
-                  The Maxiruby.com team combines its experience in the crypto
-                  industry with the goal of making the crypto world more
-                  accessible and rewarding. In the near future, users holding
-                  Maxi tokens and tokens from projects launched on our platform
-                  will have the opportunity to earn exclusive discounts and
-                  rewards from numerous shopping brands in both Turkey and
-                  worldwide.
+                  <a href="#"> maxiruby.com</a> is a registered trademark of
+                  Amazing Technology and Marketing Inc.
                 </p>
               </div>
             </div>
@@ -435,15 +419,7 @@ function AppFooter() {
 
             <div className="flex items-center gap-x-3">
               <Link
-                to="https://docs.balancenetwork.io/views/About/aboutus.html"
-                target="_blank"
-                rel="norefeerer noopenner"
-                className="hover:text-foreground transition-colors duration-150"
-              >
-                Disclaimer
-              </Link>
-              <Link
-                to="https://docs.balancenetwork.io/views/About/privacypolicy.html"
+                to="/maxi-privacy-policy.pdf"
                 target="_blank"
                 rel="norefeerer noopenner"
                 className="hover:text-foreground transition-colors duration-150"
@@ -451,12 +427,12 @@ function AppFooter() {
                 Privacy Policy
               </Link>
               <Link
-                to="https://docs.balancenetwork.io/views/About/termsofuse.html"
+                to="/maxi-term-of-use.pdf"
                 target="_blank"
                 rel="norefeerer noopenner"
                 className="hover:text-foreground transition-colors duration-150"
               >
-                Terms & Conditions
+                Terms Of Use
               </Link>
             </div>
           </div>

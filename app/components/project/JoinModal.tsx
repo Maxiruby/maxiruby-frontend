@@ -58,12 +58,12 @@ export default function JoinModal({
     const balance0ETH = await provider.getBalance(address);
     const bnbValue = Web3.utils.fromWei(balance0ETH.toString(), "ether");
     const contract = new ethers.Contract(
-      "0x0DC6247f0b52363aB920369D39f7f801dE41902D",
+      "0x67eb4fD1F47ddE52AeF2aC556E0C441d04D4b4d3",
       ido,
       signer
     );
     let t = new ethers.Contract(
-      "0x90e650225178dc0dDd49ad238FDF4CA2CCFE6f25", // muzman token
+      "0xe9e7cea3dedca5984780bafc599bd69add087d56", // muzman token
       Wbnbabi,
       signer
     );
@@ -102,7 +102,7 @@ export default function JoinModal({
     const signer = provider.getSigner();
 
     const balanceUSDT = new ethers.Contract(
-      "0x90e650225178dc0dDd49ad238FDF4CA2CCFE6f25", // muzman token
+      "0xe9e7cea3dedca5984780bafc599bd69add087d56", // muzman token
       Wbnbabi,
       provider
     );
@@ -113,18 +113,18 @@ export default function JoinModal({
     if (Number(balance) < Number(price))
       return setError("You don't have enough USDT");
     const contract = new ethers.Contract(
-      "0x0DC6247f0b52363aB920369D39f7f801dE41902D",
+      "0x67eb4fD1F47ddE52AeF2aC556E0C441d04D4b4d3",
       ido,
       signer
     );
     let t = new ethers.Contract(
-      "0x90e650225178dc0dDd49ad238FDF4CA2CCFE6f25", // muzman token
+      "0xe9e7cea3dedca5984780bafc599bd69add087d56", // muzman token
       Wbnbabi,
       signer
     );
     try {
       await t.approve(
-        "0x0DC6247f0b52363aB920369D39f7f801dE41902D",
+        "0x67eb4fD1F47ddE52AeF2aC556E0C441d04D4b4d3",
         Web3.utils.toWei(price, "ether")
       );
       const add = await contract.buyWithUSDT(
@@ -209,7 +209,7 @@ export default function JoinModal({
     const signer = provider.getSigner();
 
     const contract = new ethers.Contract(
-      "0x0DC6247f0b52363aB920369D39f7f801dE41902D",
+      "0x67eb4fD1F47ddE52AeF2aC556E0C441d04D4b4d3",
       ido,
       signer
     );
@@ -230,7 +230,7 @@ export default function JoinModal({
       const signer = provider.getSigner();
 
       const contract = new ethers.Contract(
-        "0x0DC6247f0b52363aB920369D39f7f801dE41902D",
+        "0x67eb4fD1F47ddE52AeF2aC556E0C441d04D4b4d3",
         ido,
         signer
       );

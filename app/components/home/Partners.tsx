@@ -8,7 +8,7 @@ import { Partners as PartnersConfig } from "~/config/meta.config";
 export default function Partners() {
   return (
     <Section className="pt-24 pb-16">
-      <Container>
+      {/* <Container>
         <div className="flex flex-1 flex-col py-8 px-6 gap-y-8 rounded-2xl bg-card">
           <h5 className="uppercase text-accent font-medium text-center">
             Lorem ipsum dolor sit amet consectetur amet consectetur
@@ -24,7 +24,7 @@ export default function Partners() {
             ))}
           </ul>
         </div>
-      </Container>
+      </Container> */}
     </Section>
   );
 }

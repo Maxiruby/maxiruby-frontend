@@ -50,22 +50,38 @@ export default function TierSystem() {
             <div className="flex flex-1 flex-col-reverse lg:flex-row items-center justify-between gap-x-24 gap-y-8">
               <div className="flex flex-1">
                 <p className="text-lg leading-6 text-muted-foreground font-medium">
-                  Lorem ipsum dolor sit amet consectetur. Nec at aliquet eu amet
-                  nullam magna nisl. Sed ut sit scelerisque vulputate consequat.
-                  Sit et volutpat varius ullamcorper nec pellentesque. Nunc
-                  porta magna facilisi maecenas amet netus vitae nisi neque.
-                  Gravida in eget nisl nisi malesuada dis mauris. Fermentum a
-                  lacus sem ipsum cursus non elit hac gravida. Hac amet lacinia
-                  elit donec lacus lorem nibh facilisi libero. Justo purus
-                  praesent venenatis at ipsum morbi nisl eu.
+                  MaxiRuby Launchpad introduces an exciting opportunity with our
+                  unique ROUND-2 FCFS ROUND for MAXI token holders. In this
+                  second round, any unsold tokens from the initial round become
+                  available on a First-Come-First-Served (FCFS) basis
+                  exclusively to our Platinum and above guaranteed tiers. These
+                  esteemed members can acquire an additional allocation,
+                  determined by a tier-based formula. This round remains open
+                  until every token finds its home, usually spanning just a few
+                  minutes. Once all tokens are claimed, the IDO reaches its
+                  conclusion.
                   <br />
                   <br />
-                  Molestie et tempor amet cras tristique. Suspendisse morbi urna
-                  arcu sed. Quis et fringilla sagittis porta ac nisl malesuada.
-                  Scelerisque malesuada sit a condimentum porta. Parturient
-                  pharetra pharetra enim elementum quam praesent mauris cras
-                  velit. Ut condimentum augue urna euismod elementum in et ac.
-                  Feugiat duis arcu enim urna in phasellus.
+                  We're committed to gathering valuable data and feedback on our
+                  IDO structure, continually optimizing it over time. Community
+                  feedback and potential DAO proposals hold a special place in
+                  our decision-making process
+                  <br />
+                  <br />
+                  Our system stands as a transparent and demonstrably equitable
+                  framework, motivating users to accumulate and hold MAXI tokens
+                  while backing every project launched. As time progresses,
+                  we'll fine-tune parameters, introduce new tiers, and make
+                  necessary adjustments to ensure the system remains functional,
+                  competitive, and rewarding for our entire community.
+                  <br />
+                  <br />
+                  MaxiRuby.com represents the next step in the evolution of
+                  blockchain launchpads, addressing the inherent flaws of
+                  existing platforms. Our platform benefits all MAXI token
+                  holders, leveling the playing field for traders of all sizes,
+                  granting them access to the most promising upcoming Binance
+                  Smart Chain projects."
                 </p>
               </div>
 
@@ -77,6 +93,88 @@ export default function TierSystem() {
                   height={363}
                   objectFit="contain"
                 />
+              </div>
+            </div>
+          </div>
+
+          <div className="absolute right-0 -top-16 w-screen -z-1 pointer-events-none">
+            <div className="relative inset-0 w-full h-0 pb-[61.783525291304635%]">
+              <div className="absolute inset-0 w-full h-full">
+                <Image
+                  src={Images.FCFS_BG}
+                  alt="MaxiRuby"
+                  width="100%"
+                  height="100%"
+                  objectFit="cover"
+                />
+              </div>
+            </div>
+          </div>
+        </Container>
+      </Section>
+      <Section className="relative">
+        <Container>
+          <div className="flex flex-1 flex-col gap-y-8 lg:gap-y-3">
+            <header className="flex flex-col">
+              <h4 className="flex items-center gap-x-3 text-muted-foreground text-[max(1.75vw,18px)] font-medium font-heading">
+                <span className="text-foreground">About</span>
+              </h4>
+            </header>
+
+            <div className="flex flex-1 flex-col-reverse lg:flex-row items-center justify-between gap-x-24 gap-y-8">
+              <div className="flex flex-1">
+                <p className="text-lg leading-6 text-muted-foreground font-medium">
+                  Maxiruby.com is a crypto launchpad platform that represents an
+                  exciting future in the crypto world. Our mission goes beyond
+                  providing a secure and user-friendly solution for crypto
+                  projects to have a successful start.
+                  <br />
+                  <br />
+                  The Maxiruby.com team combines its experience in the crypto
+                  industry with the goal of making the crypto world more
+                  accessible and rewarding. In the near future, users holding
+                  Maxi tokens and tokens from projects launched on our platform
+                  will have the opportunity to earn exclusive discounts and
+                  rewards from numerous shopping brands in both Turkey and
+                  worldwide.
+                  <br></br>
+                  <br></br>
+                  <span>Why Choose Maxiruby.com?</span>
+                  <br></br>
+                  <br></br>- Reliability: Security is our top priority, and we
+                  take the highest security measures to protect our users'
+                  assets.
+                  <br></br>
+                  <br></br>- Reliability: We are committed to providing the
+                  <br></br>
+                  <br />- Supporting Projects: We assist in successfully funding
+                  and growing crypto projects, thereby adding value to our
+                  community.
+                  <br />
+                  <br />- User-Centric: We've designed our platform to maximize
+                  the user experience and focus on our users' needs.
+                  <br />
+                  <br />- Investing in the Future: We believe in exploring the
+                  potential of the crypto world and continuously work to support
+                  the future growth of projects.
+                  <br />
+                  <br />
+                  Maxiruby.com is not only a gateway to the crypto world but
+                  also an ideal platform for anyone looking to earn special
+                  discounts and rewards from shopping brands by holding Maxi
+                  tokens and tokens from launch projects. Join us on this
+                  journey and enjoy an experience beyond the crypto world.
+                </p>
+              </div>
+
+              <div className="flex flex-1 justify-center items-center">
+                {/* <Image
+                  src={Images.FCFS}
+                  alt="FCFS Round"
+                  width={306}
+                  height={363}
+                  objectFit="contain"
+                /> */}
               </div>
             </div>
           </div>

@@ -11,15 +11,15 @@ import {
 import {
   useDispatch,
   useSelector
-} from "/build/_shared/chunk-RZLTBEW4.js";
+} from "/build/_shared/chunk-JKJ7ZXCB.js";
+import "/build/_shared/chunk-OZJUWIU6.js";
 import "/build/_shared/chunk-ELWJTL4F.js";
 import "/build/_shared/chunk-ABUHE4LZ.js";
 import {
   Features,
   Images,
-  Partners,
   meta_config_exports
-} from "/build/_shared/chunk-Z524DCNN.js";
+} from "/build/_shared/chunk-24ACUZVN.js";
 import {
   Image_default
 } from "/build/_shared/chunk-R2JPBEQ2.js";
@@ -404,43 +404,16 @@ if (import.meta) {
     //@ts-expect-error
     "app/components/home/Partners.tsx"
   );
-  import.meta.hot.lastModified = "1695297940749.247";
+  import.meta.hot.lastModified = "1697284656064.1653";
 }
-function Partners2() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(Section, { className: "pt-24 pb-16", children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(Container, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "flex flex-1 flex-col py-8 px-6 gap-y-8 rounded-2xl bg-card", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("h5", { className: "uppercase text-accent font-medium text-center", children: "Lorem ipsum dolor sit amet consectetur amet consectetur" }, void 0, false, {
-      fileName: "app/components/home/Partners.tsx",
-      lineNumber: 31,
-      columnNumber: 11
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("ul", { className: "flex flex-1 flex-row flex-wrap gap-x-6 gap-y-8", children: Partners.map((p) => /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("li", { className: "flex flex-1 flex-col items-center justify-center min-w-[96px]", children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(Image_default, { src: p.source, alt: p.partner, objectFit: "contain" }, void 0, false, {
-      fileName: "app/components/home/Partners.tsx",
-      lineNumber: 36,
-      columnNumber: 17
-    }, this) }, p.partner, false, {
-      fileName: "app/components/home/Partners.tsx",
-      lineNumber: 35,
-      columnNumber: 38
-    }, this)) }, void 0, false, {
-      fileName: "app/components/home/Partners.tsx",
-      lineNumber: 34,
-      columnNumber: 11
-    }, this)
-  ] }, void 0, true, {
+function Partners() {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(Section, { className: "pt-24 pb-16" }, void 0, false, {
     fileName: "app/components/home/Partners.tsx",
-    lineNumber: 30,
-    columnNumber: 9
-  }, this) }, void 0, false, {
-    fileName: "app/components/home/Partners.tsx",
-    lineNumber: 29,
-    columnNumber: 7
-  }, this) }, void 0, false, {
-    fileName: "app/components/home/Partners.tsx",
-    lineNumber: 28,
+    lineNumber: 27,
     columnNumber: 10
   }, this);
 }
-_c4 = Partners2;
+_c4 = Partners;
 var _c4;
 $RefreshReg$(_c4, "Partners");
 window.$RefreshReg$ = prevRefreshReg;
@@ -466,7 +439,7 @@ if (import.meta) {
     //@ts-expect-error
     "app/components/home/TierSystem.tsx"
   );
-  import.meta.hot.lastModified = "1695297940749.5898";
+  import.meta.hot.lastModified = "1697270174907.1372";
 }
 function TierSystem() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(import_react3.default.Fragment, { children: [
@@ -554,18 +527,40 @@ function TierSystem() {
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "flex flex-1 flex-col-reverse lg:flex-row items-center justify-between gap-x-24 gap-y-8", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "flex flex-1", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("p", { className: "text-lg leading-6 text-muted-foreground font-medium", children: [
-            "Lorem ipsum dolor sit amet consectetur. Nec at aliquet eu amet nullam magna nisl. Sed ut sit scelerisque vulputate consequat. Sit et volutpat varius ullamcorper nec pellentesque. Nunc porta magna facilisi maecenas amet netus vitae nisi neque. Gravida in eget nisl nisi malesuada dis mauris. Fermentum a lacus sem ipsum cursus non elit hac gravida. Hac amet lacinia elit donec lacus lorem nibh facilisi libero. Justo purus praesent venenatis at ipsum morbi nisl eu.",
+            "MaxiRuby Launchpad introduces an exciting opportunity with our unique ROUND-2 FCFS ROUND for MAXI token holders. In this second round, any unsold tokens from the initial round become available on a First-Come-First-Served (FCFS) basis exclusively to our Platinum and above guaranteed tiers. These esteemed members can acquire an additional allocation, determined by a tier-based formula. This round remains open until every token finds its home, usually spanning just a few minutes. Once all tokens are claimed, the IDO reaches its conclusion.",
             /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("br", {}, void 0, false, {
               fileName: "app/components/home/TierSystem.tsx",
-              lineNumber: 77,
+              lineNumber: 79,
               columnNumber: 19
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("br", {}, void 0, false, {
               fileName: "app/components/home/TierSystem.tsx",
-              lineNumber: 78,
+              lineNumber: 80,
               columnNumber: 19
             }, this),
-            "Molestie et tempor amet cras tristique. Suspendisse morbi urna arcu sed. Quis et fringilla sagittis porta ac nisl malesuada. Scelerisque malesuada sit a condimentum porta. Parturient pharetra pharetra enim elementum quam praesent mauris cras velit. Ut condimentum augue urna euismod elementum in et ac. Feugiat duis arcu enim urna in phasellus."
+            "We're committed to gathering valuable data and feedback on our IDO structure, continually optimizing it over time. Community feedback and potential DAO proposals hold a special place in our decision-making process",
+            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("br", {}, void 0, false, {
+              fileName: "app/components/home/TierSystem.tsx",
+              lineNumber: 85,
+              columnNumber: 19
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("br", {}, void 0, false, {
+              fileName: "app/components/home/TierSystem.tsx",
+              lineNumber: 86,
+              columnNumber: 19
+            }, this),
+            "Our system stands as a transparent and demonstrably equitable framework, motivating users to accumulate and hold MAXI tokens while backing every project launched. As time progresses, we'll fine-tune parameters, introduce new tiers, and make necessary adjustments to ensure the system remains functional, competitive, and rewarding for our entire community.",
+            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("br", {}, void 0, false, {
+              fileName: "app/components/home/TierSystem.tsx",
+              lineNumber: 93,
+              columnNumber: 19
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("br", {}, void 0, false, {
+              fileName: "app/components/home/TierSystem.tsx",
+              lineNumber: 94,
+              columnNumber: 19
+            }, this),
+            'MaxiRuby.com represents the next step in the evolution of blockchain launchpads, addressing the inherent flaws of existing platforms. Our platform benefits all MAXI token holders, leveling the playing field for traders of all sizes, granting them access to the most promising upcoming Binance Smart Chain projects."'
           ] }, void 0, true, {
             fileName: "app/components/home/TierSystem.tsx",
             lineNumber: 68,
@@ -577,11 +572,11 @@ function TierSystem() {
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "flex flex-1 justify-center items-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(Image_default, { src: Images.FCFS, alt: "FCFS Round", width: 306, height: 363, objectFit: "contain" }, void 0, false, {
             fileName: "app/components/home/TierSystem.tsx",
-            lineNumber: 89,
+            lineNumber: 105,
             columnNumber: 17
           }, this) }, void 0, false, {
             fileName: "app/components/home/TierSystem.tsx",
-            lineNumber: 88,
+            lineNumber: 104,
             columnNumber: 15
           }, this)
         ] }, void 0, true, {
@@ -596,19 +591,19 @@ function TierSystem() {
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "absolute right-0 -top-16 w-screen -z-1 pointer-events-none", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "relative inset-0 w-full h-0 pb-[61.783525291304635%]", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "absolute inset-0 w-full h-full", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(Image_default, { src: Images.FCFS_BG, alt: "MaxiRuby", width: "100%", height: "100%", objectFit: "cover" }, void 0, false, {
         fileName: "app/components/home/TierSystem.tsx",
-        lineNumber: 97,
+        lineNumber: 113,
         columnNumber: 17
       }, this) }, void 0, false, {
         fileName: "app/components/home/TierSystem.tsx",
-        lineNumber: 96,
+        lineNumber: 112,
         columnNumber: 15
       }, this) }, void 0, false, {
         fileName: "app/components/home/TierSystem.tsx",
-        lineNumber: 95,
+        lineNumber: 111,
         columnNumber: 13
       }, this) }, void 0, false, {
         fileName: "app/components/home/TierSystem.tsx",
-        lineNumber: 94,
+        lineNumber: 110,
         columnNumber: 11
       }, this)
     ] }, void 0, true, {
@@ -618,6 +613,166 @@ function TierSystem() {
     }, this) }, void 0, false, {
       fileName: "app/components/home/TierSystem.tsx",
       lineNumber: 55,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(Section, { className: "relative", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(Container, { children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "flex flex-1 flex-col gap-y-8 lg:gap-y-3", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("header", { className: "flex flex-col", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("h4", { className: "flex items-center gap-x-3 text-muted-foreground text-[max(1.75vw,18px)] font-medium font-heading", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("span", { className: "text-foreground", children: "About" }, void 0, false, {
+          fileName: "app/components/home/TierSystem.tsx",
+          lineNumber: 124,
+          columnNumber: 17
+        }, this) }, void 0, false, {
+          fileName: "app/components/home/TierSystem.tsx",
+          lineNumber: 123,
+          columnNumber: 15
+        }, this) }, void 0, false, {
+          fileName: "app/components/home/TierSystem.tsx",
+          lineNumber: 122,
+          columnNumber: 13
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "flex flex-1 flex-col-reverse lg:flex-row items-center justify-between gap-x-24 gap-y-8", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "flex flex-1", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("p", { className: "text-lg leading-6 text-muted-foreground font-medium", children: [
+            "Maxiruby.com is a crypto launchpad platform that represents an exciting future in the crypto world. Our mission goes beyond providing a secure and user-friendly solution for crypto projects to have a successful start.",
+            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("br", {}, void 0, false, {
+              fileName: "app/components/home/TierSystem.tsx",
+              lineNumber: 135,
+              columnNumber: 19
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("br", {}, void 0, false, {
+              fileName: "app/components/home/TierSystem.tsx",
+              lineNumber: 136,
+              columnNumber: 19
+            }, this),
+            "The Maxiruby.com team combines its experience in the crypto industry with the goal of making the crypto world more accessible and rewarding. In the near future, users holding Maxi tokens and tokens from projects launched on our platform will have the opportunity to earn exclusive discounts and rewards from numerous shopping brands in both Turkey and worldwide.",
+            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("br", {}, void 0, false, {
+              fileName: "app/components/home/TierSystem.tsx",
+              lineNumber: 144,
+              columnNumber: 19
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("br", {}, void 0, false, {
+              fileName: "app/components/home/TierSystem.tsx",
+              lineNumber: 145,
+              columnNumber: 19
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("span", { children: "Why Choose Maxiruby.com?" }, void 0, false, {
+              fileName: "app/components/home/TierSystem.tsx",
+              lineNumber: 146,
+              columnNumber: 19
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("br", {}, void 0, false, {
+              fileName: "app/components/home/TierSystem.tsx",
+              lineNumber: 147,
+              columnNumber: 19
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("br", {}, void 0, false, {
+              fileName: "app/components/home/TierSystem.tsx",
+              lineNumber: 148,
+              columnNumber: 19
+            }, this),
+            "- Reliability: Security is our top priority, and we take the highest security measures to protect our users' assets.",
+            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("br", {}, void 0, false, {
+              fileName: "app/components/home/TierSystem.tsx",
+              lineNumber: 151,
+              columnNumber: 19
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("br", {}, void 0, false, {
+              fileName: "app/components/home/TierSystem.tsx",
+              lineNumber: 152,
+              columnNumber: 19
+            }, this),
+            "- Reliability: We are committed to providing the",
+            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("br", {}, void 0, false, {
+              fileName: "app/components/home/TierSystem.tsx",
+              lineNumber: 153,
+              columnNumber: 19
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("br", {}, void 0, false, {
+              fileName: "app/components/home/TierSystem.tsx",
+              lineNumber: 154,
+              columnNumber: 19
+            }, this),
+            "- Supporting Projects: We assist in successfully funding and growing crypto projects, thereby adding value to our community.",
+            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("br", {}, void 0, false, {
+              fileName: "app/components/home/TierSystem.tsx",
+              lineNumber: 157,
+              columnNumber: 19
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("br", {}, void 0, false, {
+              fileName: "app/components/home/TierSystem.tsx",
+              lineNumber: 158,
+              columnNumber: 19
+            }, this),
+            "- User-Centric: We've designed our platform to maximize the user experience and focus on our users' needs.",
+            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("br", {}, void 0, false, {
+              fileName: "app/components/home/TierSystem.tsx",
+              lineNumber: 160,
+              columnNumber: 19
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("br", {}, void 0, false, {
+              fileName: "app/components/home/TierSystem.tsx",
+              lineNumber: 161,
+              columnNumber: 19
+            }, this),
+            "- Investing in the Future: We believe in exploring the potential of the crypto world and continuously work to support the future growth of projects.",
+            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("br", {}, void 0, false, {
+              fileName: "app/components/home/TierSystem.tsx",
+              lineNumber: 164,
+              columnNumber: 19
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("br", {}, void 0, false, {
+              fileName: "app/components/home/TierSystem.tsx",
+              lineNumber: 165,
+              columnNumber: 19
+            }, this),
+            "Maxiruby.com is not only a gateway to the crypto world but also an ideal platform for anyone looking to earn special discounts and rewards from shopping brands by holding Maxi tokens and tokens from launch projects. Join us on this journey and enjoy an experience beyond the crypto world."
+          ] }, void 0, true, {
+            fileName: "app/components/home/TierSystem.tsx",
+            lineNumber: 130,
+            columnNumber: 17
+          }, this) }, void 0, false, {
+            fileName: "app/components/home/TierSystem.tsx",
+            lineNumber: 129,
+            columnNumber: 15
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "flex flex-1 justify-center items-center" }, void 0, false, {
+            fileName: "app/components/home/TierSystem.tsx",
+            lineNumber: 174,
+            columnNumber: 15
+          }, this)
+        ] }, void 0, true, {
+          fileName: "app/components/home/TierSystem.tsx",
+          lineNumber: 128,
+          columnNumber: 13
+        }, this)
+      ] }, void 0, true, {
+        fileName: "app/components/home/TierSystem.tsx",
+        lineNumber: 121,
+        columnNumber: 11
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "absolute right-0 -top-16 w-screen -z-1 pointer-events-none", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "relative inset-0 w-full h-0 pb-[61.783525291304635%]", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "absolute inset-0 w-full h-full", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(Image_default, { src: Images.FCFS_BG, alt: "MaxiRuby", width: "100%", height: "100%", objectFit: "cover" }, void 0, false, {
+        fileName: "app/components/home/TierSystem.tsx",
+        lineNumber: 189,
+        columnNumber: 17
+      }, this) }, void 0, false, {
+        fileName: "app/components/home/TierSystem.tsx",
+        lineNumber: 188,
+        columnNumber: 15
+      }, this) }, void 0, false, {
+        fileName: "app/components/home/TierSystem.tsx",
+        lineNumber: 187,
+        columnNumber: 13
+      }, this) }, void 0, false, {
+        fileName: "app/components/home/TierSystem.tsx",
+        lineNumber: 186,
+        columnNumber: 11
+      }, this)
+    ] }, void 0, true, {
+      fileName: "app/components/home/TierSystem.tsx",
+      lineNumber: 120,
+      columnNumber: 9
+    }, this) }, void 0, false, {
+      fileName: "app/components/home/TierSystem.tsx",
+      lineNumber: 119,
       columnNumber: 7
     }, this)
   ] }, void 0, true, {
@@ -633,74 +788,74 @@ function Tier({
   return /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "flex flex-1 flex-col w-full bg-card/80 rounded-3xl p-5 gap-y-8", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("header", { className: "flex items-center justify-center bg-accent rounded-2xl py-3 px-6", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("strong", { className: "text-xl text-accent-foreground font-bold capitalize", children: tier.tier }, void 0, false, {
       fileName: "app/components/home/TierSystem.tsx",
-      lineNumber: 111,
+      lineNumber: 203,
       columnNumber: 9
     }, this) }, void 0, false, {
       fileName: "app/components/home/TierSystem.tsx",
-      lineNumber: 110,
+      lineNumber: 202,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("main", { className: "flex flex-1 flex-col", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("ul", { className: "flex flex-col justify-center items-center gap-y-6", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("li", { className: "flex flex-col gap-y-1 text-center", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("span", { className: "text-sm text-muted-foreground font-medium", children: "Entry Requirement" }, void 0, false, {
           fileName: "app/components/home/TierSystem.tsx",
-          lineNumber: 119,
+          lineNumber: 211,
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("strong", { className: "text-2xl font-bold", children: tier.staking_requirement }, void 0, false, {
           fileName: "app/components/home/TierSystem.tsx",
-          lineNumber: 122,
+          lineNumber: 214,
           columnNumber: 13
         }, this)
       ] }, void 0, true, {
         fileName: "app/components/home/TierSystem.tsx",
-        lineNumber: 118,
+        lineNumber: 210,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("li", { className: "flex flex-col gap-y-1 text-center", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("span", { className: "text-sm text-muted-foreground font-medium", children: "Pool Weight" }, void 0, false, {
           fileName: "app/components/home/TierSystem.tsx",
-          lineNumber: 128,
+          lineNumber: 220,
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("strong", { className: "text-2xl font-bold", children: tier.whitelist_requirement }, void 0, false, {
           fileName: "app/components/home/TierSystem.tsx",
-          lineNumber: 131,
+          lineNumber: 223,
           columnNumber: 13
         }, this)
       ] }, void 0, true, {
         fileName: "app/components/home/TierSystem.tsx",
-        lineNumber: 127,
+        lineNumber: 219,
         columnNumber: 11
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("li", { className: "flex flex-col gap-y-1 text-center", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("span", { className: "text-sm text-muted-foreground font-medium", children: "Whitelist Tickets" }, void 0, false, {
           fileName: "app/components/home/TierSystem.tsx",
-          lineNumber: 137,
+          lineNumber: 229,
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("strong", { className: "text-2xl font-bold", children: tier.lottery_ticket }, void 0, false, {
           fileName: "app/components/home/TierSystem.tsx",
-          lineNumber: 140,
+          lineNumber: 232,
           columnNumber: 13
         }, this)
       ] }, void 0, true, {
         fileName: "app/components/home/TierSystem.tsx",
-        lineNumber: 136,
+        lineNumber: 228,
         columnNumber: 11
       }, this)
     ] }, void 0, true, {
       fileName: "app/components/home/TierSystem.tsx",
-      lineNumber: 117,
+      lineNumber: 209,
       columnNumber: 9
     }, this) }, void 0, false, {
       fileName: "app/components/home/TierSystem.tsx",
-      lineNumber: 116,
+      lineNumber: 208,
       columnNumber: 7
     }, this)
   ] }, void 0, true, {
     fileName: "app/components/home/TierSystem.tsx",
-    lineNumber: 109,
+    lineNumber: 201,
     columnNumber: 10
   }, this);
 }
@@ -797,7 +952,7 @@ function Index() {
       lineNumber: 82,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Partners2, {}, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Partners, {}, void 0, false, {
       fileName: "app/routes/_index.tsx",
       lineNumber: 83,
       columnNumber: 7
@@ -820,4 +975,4 @@ export {
   Index as default,
   meta
 };
-//# sourceMappingURL=/build/routes/_index-EO2SQ76D.js.map
+//# sourceMappingURL=/build/routes/_index-5XGNXMXE.js.map

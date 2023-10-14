@@ -48,7 +48,8 @@ import {
 } from "/build/_shared/chunk-GQSZI2RT.js";
 import {
   useSelector
-} from "/build/_shared/chunk-RZLTBEW4.js";
+} from "/build/_shared/chunk-JKJ7ZXCB.js";
+import "/build/_shared/chunk-OZJUWIU6.js";
 import {
   _extends
 } from "/build/_shared/chunk-ELWJTL4F.js";
@@ -26399,7 +26400,7 @@ if (import.meta) {
     //@ts-expect-error
     "app/components/project/JoinModal.tsx"
   );
-  import.meta.hot.lastModified = "1695580008766.144";
+  import.meta.hot.lastModified = "1697272128601.1077";
 }
 function JoinModal({
   project,
@@ -26441,9 +26442,9 @@ function JoinModal({
     const signer = provider.getSigner();
     const balance0ETH = await provider.getBalance(address);
     const bnbValue = esm_default2.utils.fromWei(balance0ETH.toString(), "ether");
-    const contract = new ethers_exports.Contract("0x0DC6247f0b52363aB920369D39f7f801dE41902D", id_default, signer);
+    const contract = new ethers_exports.Contract("0x67eb4fD1F47ddE52AeF2aC556E0C441d04D4b4d3", id_default, signer);
     let t = new ethers_exports.Contract(
-      "0x90e650225178dc0dDd49ad238FDF4CA2CCFE6f25",
+      "0xe9e7cea3dedca5984780bafc599bd69add087d56",
       // muzman token
       Wbnbabi_default,
       signer
@@ -26460,7 +26461,7 @@ function JoinModal({
     await provider.send("eth_requestAccounts", []);
     const signer = provider.getSigner();
     const balanceUSDT = new ethers_exports.Contract(
-      "0x90e650225178dc0dDd49ad238FDF4CA2CCFE6f25",
+      "0xe9e7cea3dedca5984780bafc599bd69add087d56",
       // muzman token
       Wbnbabi_default,
       provider
@@ -26468,15 +26469,15 @@ function JoinModal({
     const balance = (await balanceUSDT.balanceOf(address) / 10 ** 18).toString();
     if (Number(balance) < Number(price))
       return setError("You don't have enough USDT");
-    const contract = new ethers_exports.Contract("0x0DC6247f0b52363aB920369D39f7f801dE41902D", id_default, signer);
+    const contract = new ethers_exports.Contract("0x67eb4fD1F47ddE52AeF2aC556E0C441d04D4b4d3", id_default, signer);
     let t = new ethers_exports.Contract(
-      "0x90e650225178dc0dDd49ad238FDF4CA2CCFE6f25",
+      "0xe9e7cea3dedca5984780bafc599bd69add087d56",
       // muzman token
       Wbnbabi_default,
       signer
     );
     try {
-      await t.approve("0x0DC6247f0b52363aB920369D39f7f801dE41902D", esm_default2.utils.toWei(price, "ether"));
+      await t.approve("0x67eb4fD1F47ddE52AeF2aC556E0C441d04D4b4d3", esm_default2.utils.toWei(price, "ether"));
       const add2 = await contract.buyWithUSDT(parseInt(project.project_id.toString(), 16), esm_default2.utils.toWei(price, "ether"), {
         gasLimit: "2000000"
       });
@@ -26537,7 +26538,7 @@ function JoinModal({
     const provider = new ethers_exports.providers.Web3Provider(window?.ethereum);
     await provider.send("eth_requestAccounts", []);
     const signer = provider.getSigner();
-    const contract = new ethers_exports.Contract("0x0DC6247f0b52363aB920369D39f7f801dE41902D", id_default, signer);
+    const contract = new ethers_exports.Contract("0x67eb4fD1F47ddE52AeF2aC556E0C441d04D4b4d3", id_default, signer);
     console.log("mmmm");
     const deneme = await contract.userVesting("0x87CFd2Dac960FFF01892919C4df040E2dEdcFF2c", 7);
     console.log(parseInt(deneme.claimedAmount.toString(), 16));
@@ -26547,7 +26548,7 @@ function JoinModal({
       const provider = new ethers_exports.providers.Web3Provider(window?.ethereum);
       await provider.send("eth_requestAccounts", []);
       const signer = provider.getSigner();
-      const contract = new ethers_exports.Contract("0x0DC6247f0b52363aB920369D39f7f801dE41902D", id_default, signer);
+      const contract = new ethers_exports.Contract("0x67eb4fD1F47ddE52AeF2aC556E0C441d04D4b4d3", id_default, signer);
       const deneme = await contract.userVesting("0x87CFd2Dac960FFF01892919C4df040E2dEdcFF2c", 7);
       console.log(deneme);
     };
@@ -28402,4 +28403,4 @@ crc-32/crc32.js:
 @noble/curves/esm/secp256k1.js:
   (*! noble-curves - MIT License (c) 2022 Paul Miller (paulmillr.com) *)
 */
-//# sourceMappingURL=/build/routes/projects_.$project-EZ54F7VS.js.map
+//# sourceMappingURL=/build/routes/projects_.$project-FO56EHYB.js.map

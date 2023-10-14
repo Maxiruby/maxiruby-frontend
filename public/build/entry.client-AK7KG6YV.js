@@ -10,7 +10,7 @@ import {
   defaultConfig,
   require_chains,
   require_public
-} from "/build/_shared/chunk-3ZCZC325.js";
+} from "/build/_shared/chunk-EOTTRJF5.js";
 import "/build/_shared/chunk-SJOU5J2P.js";
 import "/build/_shared/chunk-QOSJW2MN.js";
 import "/build/_shared/chunk-EFGTSB2P.js";
@@ -25,7 +25,8 @@ import {
 } from "/build/_shared/chunk-FXFW7OVD.js";
 import {
   Provider_default
-} from "/build/_shared/chunk-RZLTBEW4.js";
+} from "/build/_shared/chunk-JKJ7ZXCB.js";
+import "/build/_shared/chunk-OZJUWIU6.js";
 import "/build/_shared/chunk-ELWJTL4F.js";
 import "/build/_shared/chunk-TW7RAODN.js";
 import {
@@ -687,4 +688,4 @@ var store = createStore(reducers_default, (0, import_redux_devtools_extension.co
     }, this)
   );
 });
-//# sourceMappingURL=/build/entry.client-JQZYOFUB.js.map
+//# sourceMappingURL=/build/entry.client-AK7KG6YV.js.map

@@ -52,7 +52,7 @@ if (import.meta) {
     //@ts-expect-error
     "app/routes/portfolio.claims.tsx"
   );
-  import.meta.hot.lastModified = "1695582606955.7078";
+  import.meta.hot.lastModified = "1697272062007.0862";
 }
 var meta = () => {
   return [{
@@ -88,7 +88,7 @@ function PortfolioClaims() {
     const provider = new ethers_exports.providers.Web3Provider(window?.ethereum);
     await provider.send("eth_requestAccounts", []);
     const signer = provider.getSigner();
-    const contract = new ethers_exports.Contract("0x0DC6247f0b52363aB920369D39f7f801dE41902D", id_default, signer);
+    const contract = new ethers_exports.Contract("0x67eb4fD1F47ddE52AeF2aC556E0C441d04D4b4d3", id_default, signer);
     setLoader(true);
     setError("");
     setSuccess("");
@@ -112,7 +112,7 @@ function PortfolioClaims() {
     const provider = new ethers_exports.providers.Web3Provider(window?.ethereum);
     await provider.send("eth_requestAccounts", []);
     const signer = provider.getSigner();
-    const contract = new ethers_exports.Contract("0x0DC6247f0b52363aB920369D39f7f801dE41902D", id_default, signer);
+    const contract = new ethers_exports.Contract("0x67eb4fD1F47ddE52AeF2aC556E0C441d04D4b4d3", id_default, signer);
   };
   const isStartTimePresent = (project) => {
     return project.vestingStartTime != null && project.vestingStartTime > 0;
@@ -384,4 +384,4 @@ export {
   PortfolioClaims as default,
   meta
 };
-//# sourceMappingURL=/build/routes/portfolio.claims-4PDPYV23.js.map
+//# sourceMappingURL=/build/routes/portfolio.claims-6VVQFLHV.js.map

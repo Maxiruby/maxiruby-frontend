@@ -86,7 +86,7 @@ if (import.meta) {
     //@ts-expect-error
     "app/config/meta.config.ts"
   );
-  import.meta.hot.lastModified = "1697012560755.387";
+  import.meta.hot.lastModified = "1697284275075.1062";
 }
 var Social = [
   {
@@ -146,46 +146,51 @@ var HelpfulLinks = {
     },
     {
       title: "Terms of Use",
-      path: "#",
+      path: "/maxi-term-of-use.pdf",
       target: "_blank"
     },
     {
       title: "Privacy Policy",
-      path: "#",
+      path: "/maxi-privacy-policy.pdf",
       target: "_blank"
     }
   ],
-  support: [
-    {
-      title: "Help & Support",
-      path: "#",
-      target: "_blank"
-    },
-    {
-      title: "Author Profile",
-      path: "#",
-      target: "_blank"
-    },
-    {
-      title: "Contact",
-      path: "#",
-      target: "_blank"
-    }
-  ],
+  // support: [
+  //   {
+  //     title: "Help & Support",
+  //     path: "#",
+  //     target: "_blank",
+  //   },
+  //   {
+  //     title: "Author Profile",
+  //     path: "#",
+  //     target: "_blank",
+  //   },
+  //   {
+  //     title: "Contact",
+  //     path: "#",
+  //     target: "_blank",
+  //   },
+  // ],
   community: [
     {
       title: "Twitter",
-      path: "#",
+      path: "https://twitter.com/maxirubycom?s=21&t=SACuHWf3fa0tDV4PEB41dQ",
+      target: "_blank"
+    },
+    {
+      title: "Instagram",
+      path: "https://www.instagram.com/maxirubycom/?igshid=MzRlODBiNWFlZA%3D%3D",
+      target: "_blank"
+    },
+    {
+      title: "Facebook",
+      path: "https://www.facebook.com/maxirubyofficial?mibextid=LQQJ4d",
       target: "_blank"
     },
     {
       title: "Telegram",
-      path: "#",
-      target: "_blank"
-    },
-    {
-      title: "Discord",
-      path: "#",
+      path: "https://t.me/MaxiRubyofficial",
       target: "_blank"
     }
   ]
@@ -288,7 +293,6 @@ if (import.meta) {
 export {
   Images,
   Features,
-  Partners,
   meta_config_exports
 };
-//# sourceMappingURL=/build/_shared/chunk-Z524DCNN.js.map
+//# sourceMappingURL=/build/_shared/chunk-24ACUZVN.js.map

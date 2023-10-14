@@ -8,7 +8,7 @@ import {
 } from "/build/_shared/chunk-GILHEFSK.js";
 import {
   ConnectKitButton
-} from "/build/_shared/chunk-3ZCZC325.js";
+} from "/build/_shared/chunk-EOTTRJF5.js";
 import "/build/_shared/chunk-SJOU5J2P.js";
 import "/build/_shared/chunk-QOSJW2MN.js";
 import "/build/_shared/chunk-EFGTSB2P.js";
@@ -52,14 +52,9 @@ import {
 import "/build/_shared/chunk-F2XZ4E5T.js";
 import "/build/_shared/chunk-QS27G3MX.js";
 import {
-  api
-} from "/build/_shared/chunk-FXFW7OVD.js";
-import {
   Container
 } from "/build/_shared/chunk-GQSZI2RT.js";
-import {
-  useDispatch
-} from "/build/_shared/chunk-RZLTBEW4.js";
+import "/build/_shared/chunk-OZJUWIU6.js";
 import {
   _extends
 } from "/build/_shared/chunk-ELWJTL4F.js";
@@ -75,7 +70,7 @@ import {
 import {
   Images,
   meta_config_exports
-} from "/build/_shared/chunk-Z524DCNN.js";
+} from "/build/_shared/chunk-24ACUZVN.js";
 import {
   Image_default
 } from "/build/_shared/chunk-R2JPBEQ2.js";
@@ -2782,15 +2777,15 @@ var links = () => [{
   rel: "stylesheet",
   href: globals_default
 }, {
+  rel: "icon",
+  href: "/build/favicon.svg",
+  type: "image/png"
+}, {
   rel: "preconnect",
   href: "https://fonts.googleapis.com"
 }, {
   rel: "preconnect",
   href: "https://fonts.gstatic.com"
-}, {
-  rel: "icon",
-  href: "/favicon.svg",
-  type: "image/x-icon"
 }, {
   rel: "stylesheet",
   href: "https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700&display=swap"
@@ -2829,71 +2824,71 @@ function App() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("head", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("meta", { charSet: "utf-8" }, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 111,
+        lineNumber: 109,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("meta", { name: "viewport", content: "width=device-width,initial-scale=1" }, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 112,
+        lineNumber: 110,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Meta, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 113,
+        lineNumber: 111,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Links, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 114,
+        lineNumber: 112,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.tsx",
-      lineNumber: 110,
+      lineNumber: 108,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("body", { className: "bg-background text-foreground", children: [
       appLoaded ? isAuthPage ? /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Outlet, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 117,
+        lineNumber: 115,
         columnNumber: 35
       }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(AppLayout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Outlet, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 118,
+        lineNumber: 116,
         columnNumber: 15
       }, this) }, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 117,
+        lineNumber: 115,
         columnNumber: 48
       }, this) : null,
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(ToastWrapper, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 121,
+        lineNumber: 119,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(ScrollRestoration, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 122,
+        lineNumber: 120,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Scripts, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 123,
+        lineNumber: 121,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(LiveReload, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 124,
+        lineNumber: 122,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.tsx",
-      lineNumber: 116,
+      lineNumber: 114,
       columnNumber: 7
     }, this)
   ] }, void 0, true, {
     fileName: "app/root.tsx",
-    lineNumber: 109,
+    lineNumber: 107,
     columnNumber: 10
   }, this);
 }
@@ -2907,27 +2902,27 @@ function AppLayout({
   return /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "w-full h-full", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(MobileHeader, {}, void 0, false, {
       fileName: "app/root.tsx",
-      lineNumber: 136,
+      lineNumber: 134,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(AppHeader, {}, void 0, false, {
       fileName: "app/root.tsx",
-      lineNumber: 137,
+      lineNumber: 135,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("main", { className: "relative flex flex-col h-full pt-16", children }, void 0, false, {
       fileName: "app/root.tsx",
-      lineNumber: 139,
+      lineNumber: 137,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(AppFooter, {}, void 0, false, {
       fileName: "app/root.tsx",
-      lineNumber: 141,
+      lineNumber: 139,
       columnNumber: 7
     }, this)
   ] }, void 0, true, {
     fileName: "app/root.tsx",
-    lineNumber: 135,
+    lineNumber: 133,
     columnNumber: 10
   }, this);
 }
@@ -2936,34 +2931,34 @@ function AppHeader() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("header", { className: "hidden sm:block fixed inset-0 bottom-[initial] w-full h-16 bg-background/40 supports-backdrop-blur:bg-background-60 backdrop-blur z-10", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Container, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "flex flex-1 items-center justify-between w-full h-full gap-x-4", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(NavLink, { to: "/", className: "flex", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Image_default, { src: Images.Logo, alt: "Maxiruby", width: 215, height: 26, objectFit: "contain" }, void 0, false, {
       fileName: "app/root.tsx",
-      lineNumber: 150,
+      lineNumber: 148,
       columnNumber: 13
     }, this) }, void 0, false, {
       fileName: "app/root.tsx",
-      lineNumber: 149,
+      lineNumber: 147,
       columnNumber: 11
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(AppNavigation, {}, void 0, false, {
       fileName: "app/root.tsx",
-      lineNumber: 154,
+      lineNumber: 152,
       columnNumber: 11
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(AppActions, {}, void 0, false, {
       fileName: "app/root.tsx",
-      lineNumber: 156,
+      lineNumber: 154,
       columnNumber: 11
     }, this)
   ] }, void 0, true, {
     fileName: "app/root.tsx",
-    lineNumber: 148,
+    lineNumber: 146,
     columnNumber: 9
   }, this) }, void 0, false, {
     fileName: "app/root.tsx",
-    lineNumber: 147,
+    lineNumber: 145,
     columnNumber: 7
   }, this) }, void 0, false, {
     fileName: "app/root.tsx",
-    lineNumber: 146,
+    lineNumber: 144,
     columnNumber: 10
   }, this);
 }
@@ -2977,90 +2972,90 @@ function MobileHeader() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("header", { className: "block sm:hidden fixed inset-0 bottom-[initial] w-full h-16 z-10", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Container, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "flex flex-1 items-center justify-between w-full h-full gap-x-4", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(NavLink, { to: "/", className: "flex", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Image_default, { src: Images.Logo, alt: "Maxiruby", width: 142, height: 50 }, void 0, false, {
       fileName: "app/root.tsx",
-      lineNumber: 172,
+      lineNumber: 170,
       columnNumber: 13
     }, this) }, void 0, false, {
       fileName: "app/root.tsx",
-      lineNumber: 171,
+      lineNumber: 169,
       columnNumber: 11
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(ClientOnly, { children: () => /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Sheet, { open, onOpenChange: (open2) => !open2 && setOpen(false), children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(SheetTrigger, { asChild: true, children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Button_default, { variant: "border", type: "button", title: "Shopping Bag", className: "w-11 h-11 p-0", onClick: () => setOpen(true), children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Icon, { icon: "dashboard" }, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 181,
+        lineNumber: 179,
         columnNumber: 23
       }, this) }, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 179,
+        lineNumber: 177,
         columnNumber: 21
       }, this) }, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 178,
+        lineNumber: 176,
         columnNumber: 19
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(SheetContent, { children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "flex items-center justify-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(NavLink, { to: "/", className: "flex", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Image_default, { src: Images.Logo, alt: "Maxiruby", width: 200, height: 76 }, void 0, false, {
           fileName: "app/root.tsx",
-          lineNumber: 188,
+          lineNumber: 186,
           columnNumber: 25
         }, this) }, void 0, false, {
           fileName: "app/root.tsx",
-          lineNumber: 187,
+          lineNumber: 185,
           columnNumber: 23
         }, this) }, void 0, false, {
           fileName: "app/root.tsx",
-          lineNumber: 186,
+          lineNumber: 184,
           columnNumber: 21
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(SheetFooter, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "h-full flex items-center justify-center flex-col gap-y-20 mt-7", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(AppNavigation, {}, void 0, false, {
             fileName: "app/root.tsx",
-            lineNumber: 194,
+            lineNumber: 192,
             columnNumber: 25
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(AppActions, {}, void 0, false, {
             fileName: "app/root.tsx",
-            lineNumber: 195,
+            lineNumber: 193,
             columnNumber: 25
           }, this)
         ] }, void 0, true, {
           fileName: "app/root.tsx",
-          lineNumber: 193,
+          lineNumber: 191,
           columnNumber: 23
         }, this) }, void 0, false, {
           fileName: "app/root.tsx",
-          lineNumber: 192,
+          lineNumber: 190,
           columnNumber: 21
         }, this)
       ] }, void 0, true, {
         fileName: "app/root.tsx",
-        lineNumber: 185,
+        lineNumber: 183,
         columnNumber: 19
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.tsx",
-      lineNumber: 176,
+      lineNumber: 174,
       columnNumber: 22
     }, this) }, void 0, false, {
       fileName: "app/root.tsx",
-      lineNumber: 175,
+      lineNumber: 173,
       columnNumber: 13
     }, this) }, void 0, false, {
       fileName: "app/root.tsx",
-      lineNumber: 174,
+      lineNumber: 172,
       columnNumber: 11
     }, this)
   ] }, void 0, true, {
     fileName: "app/root.tsx",
-    lineNumber: 170,
+    lineNumber: 168,
     columnNumber: 9
   }, this) }, void 0, false, {
     fileName: "app/root.tsx",
-    lineNumber: 169,
+    lineNumber: 167,
     columnNumber: 7
   }, this) }, void 0, false, {
     fileName: "app/root.tsx",
-    lineNumber: 168,
+    lineNumber: 166,
     columnNumber: 10
   }, this);
 }
@@ -3072,27 +3067,27 @@ function AppNavigation() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("nav", { role: "navigation", className: "flex items-center gap-x-8", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(AppNavigationLink, { title: "Home", path: "/" }, void 0, false, {
       fileName: "app/root.tsx",
-      lineNumber: 213,
+      lineNumber: 211,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(AppNavigationLink, { title: "Projects", path: "/projects" }, void 0, false, {
       fileName: "app/root.tsx",
-      lineNumber: 214,
+      lineNumber: 212,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(AppNavigationLink, { title: "Blog", path: "/blog" }, void 0, false, {
       fileName: "app/root.tsx",
-      lineNumber: 215,
+      lineNumber: 213,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(AppNavigationLink, { title: "Apply", path: "https://docs.google.com/forms/d/e/1FAIpQLSeXhKpfL0eOUV7vta2g6-i3R8q5Nk8nAS9nZh7jyYdhB1r5hA/viewform?usp=sf_link" }, void 0, false, {
       fileName: "app/root.tsx",
-      lineNumber: 216,
+      lineNumber: 214,
       columnNumber: 7
     }, this)
   ] }, void 0, true, {
     fileName: "app/root.tsx",
-    lineNumber: 212,
+    lineNumber: 210,
     columnNumber: 10
   }, this);
 }
@@ -3108,7 +3103,7 @@ function AppNavigationLink({
     "text-accent hover:text-accent after:absolute after:top-full after:left-0 after:right-0 after:w-full after:h-0.5 after:mt-1 after:bg-accent after:rounded-md": isActive
   }), children: title }, void 0, false, {
     fileName: "app/root.tsx",
-    lineNumber: 225,
+    lineNumber: 223,
     columnNumber: 10
   }, this);
 }
@@ -3119,20 +3114,15 @@ function AppActions() {
   const navigate = useNavigate();
   const user = localStorage.getItem("profile");
   const userToken = localStorage.getItem("token");
-  const dispatch2 = useDispatch();
   const handleLogout = () => {
     localStorage.removeItem("profile");
     localStorage.removeItem("token");
-    api.set("user", "");
-    dispatch2({
-      type: "LOGOUT"
-    });
     navigate("/login");
   };
   return /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "flex items-center justify-center gap-x-3", children: user ? /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(import_react10.default.Fragment, { children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(ConnectKitButton, {}, void 0, false, {
       fileName: "app/root.tsx",
-      lineNumber: 263,
+      lineNumber: 256,
       columnNumber: 11
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(DropdownMenu, { children: [
@@ -3140,96 +3130,96 @@ function AppActions() {
         "My Account",
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Icon, { icon: "chevron-down" }, void 0, false, {
           fileName: "app/root.tsx",
-          lineNumber: 270,
+          lineNumber: 263,
           columnNumber: 17
         }, this)
       ] }, void 0, true, {
         fileName: "app/root.tsx",
-        lineNumber: 267,
+        lineNumber: 260,
         columnNumber: 15
       }, this) }, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 266,
+        lineNumber: 259,
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(DropdownMenuContent, { children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(DropdownMenuLabel, { children: "My Account" }, void 0, false, {
           fileName: "app/root.tsx",
-          lineNumber: 275,
+          lineNumber: 268,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(DropdownMenuSeparator, {}, void 0, false, {
           fileName: "app/root.tsx",
-          lineNumber: 276,
+          lineNumber: 269,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(DropdownMenuGroup, { children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(DropdownMenuItem, { onSelect: () => navigate("/profile"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("span", { children: "Profile" }, void 0, false, {
             fileName: "app/root.tsx",
-            lineNumber: 279,
+            lineNumber: 272,
             columnNumber: 19
           }, this) }, void 0, false, {
             fileName: "app/root.tsx",
-            lineNumber: 278,
+            lineNumber: 271,
             columnNumber: 17
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(DropdownMenuItem, { onSelect: () => navigate("/portfolio"), children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("span", { children: "Portfolio" }, void 0, false, {
             fileName: "app/root.tsx",
-            lineNumber: 282,
+            lineNumber: 275,
             columnNumber: 19
           }, this) }, void 0, false, {
             fileName: "app/root.tsx",
-            lineNumber: 281,
+            lineNumber: 274,
             columnNumber: 17
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(DropdownMenuItem, { onSelect: () => {
           }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { role: "button", onClick: handleLogout, className: "flex flex-1 items-center gap-x-1.5", children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Icon, { icon: "log-out", className: "w-4 h-4" }, void 0, false, {
               fileName: "app/root.tsx",
-              lineNumber: 290,
+              lineNumber: 283,
               columnNumber: 21
             }, this),
             "Log Out"
           ] }, void 0, true, {
             fileName: "app/root.tsx",
-            lineNumber: 288,
+            lineNumber: 281,
             columnNumber: 19
           }, this) }, void 0, false, {
             fileName: "app/root.tsx",
-            lineNumber: 284,
+            lineNumber: 277,
             columnNumber: 17
           }, this)
         ] }, void 0, true, {
           fileName: "app/root.tsx",
-          lineNumber: 277,
+          lineNumber: 270,
           columnNumber: 15
         }, this)
       ] }, void 0, true, {
         fileName: "app/root.tsx",
-        lineNumber: 274,
+        lineNumber: 267,
         columnNumber: 13
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.tsx",
-      lineNumber: 265,
+      lineNumber: 258,
       columnNumber: 11
     }, this)
   ] }, void 0, true, {
     fileName: "app/root.tsx",
-    lineNumber: 262,
+    lineNumber: 255,
     columnNumber: 15
   }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(NavLink, { to: "/login", className: "text-sm font-semibold py-3 px-5 rounded-xl border border-solid border-border hover:bg-secondary transition-colors duration-150", children: "Log In / Sign Up" }, void 0, false, {
     fileName: "app/root.tsx",
-    lineNumber: 297,
+    lineNumber: 290,
     columnNumber: 29
   }, this) }, void 0, false, {
     fileName: "app/root.tsx",
-    lineNumber: 253,
+    lineNumber: 246,
     columnNumber: 10
   }, this);
 }
-_s32(AppActions, "848MLgGxCCI6w+jhA3Pe6hs27Y8=", false, function() {
-  return [useAppStore, useNavigate, useDispatch];
+_s32(AppActions, "eo5MRvlrKseiMlganGM6B4mZ05g=", false, function() {
+  return [useAppStore, useNavigate];
 });
 _c74 = AppActions;
 function AppFooter() {
@@ -3238,59 +3228,61 @@ function AppFooter() {
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "flex flex-col flex-1 min-w-[200px] max-w-[460px]", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "flex flex-col gap-y-5", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(NavLink, { to: "/", className: "flex", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Image_default, { src: Images.Logo, alt: "Maxiruby", width: 238, height: 36 }, void 0, false, {
           fileName: "app/root.tsx",
-          lineNumber: 318,
+          lineNumber: 311,
           columnNumber: 19
         }, this) }, void 0, false, {
           fileName: "app/root.tsx",
-          lineNumber: 317,
+          lineNumber: 310,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("p", { className: "text-muted-foreground text-sm font-medium", children: "Maxiruby.com is a crypto launchpad platform that represents an exciting future in the crypto world. Our mission goes beyond providing a secure and user-friendly solution for crypto projects to have a successful start." }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("p", { className: "text-muted-foreground text-sm font-medium", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("a", { href: "#", children: " maxiruby.com" }, void 0, false, {
+            fileName: "app/root.tsx",
+            lineNumber: 316,
+            columnNumber: 19
+          }, this),
+          " is a registered trademark of Amazing Technology and Marketing Inc."
+        ] }, void 0, true, {
           fileName: "app/root.tsx",
-          lineNumber: 322,
-          columnNumber: 17
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("p", { className: "text-muted-foreground text-sm font-medium", children: "The Maxiruby.com team combines its experience in the crypto industry with the goal of making the crypto world more accessible and rewarding. In the near future, users holding Maxi tokens and tokens from projects launched on our platform will have the opportunity to earn exclusive discounts and rewards from numerous shopping brands in both Turkey and worldwide." }, void 0, false, {
-          fileName: "app/root.tsx",
-          lineNumber: 328,
+          lineNumber: 315,
           columnNumber: 17
         }, this)
       ] }, void 0, true, {
         fileName: "app/root.tsx",
-        lineNumber: 316,
+        lineNumber: 309,
         columnNumber: 15
       }, this) }, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 315,
+        lineNumber: 308,
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("nav", { role: "navigation", className: "flex flex-1 flex-wrap items-start justify-center gap-5", children: Object.entries(meta_config_exports.HelpfulLinks).map(([key, values], index) => /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "flex flex-col min-w-[120px] gap-y-4", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("h6", { className: "text-xl font-semibold capitalize", children: key }, void 0, false, {
           fileName: "app/root.tsx",
-          lineNumber: 345,
+          lineNumber: 327,
           columnNumber: 21
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("ul", { className: "flex flex-col gap-y-2", children: values.map((v, i) => /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Link, { to: v.path, target: v.target, rel: v.target === "_blank" ? "norefeerer noopenner" : "", className: "text-muted-foreground text-sm font-medium hover:text-foreground transition-colors duration-150", children: v.title }, i, false, {
           fileName: "app/root.tsx",
-          lineNumber: 348,
+          lineNumber: 330,
           columnNumber: 45
         }, this)) }, void 0, false, {
           fileName: "app/root.tsx",
-          lineNumber: 347,
+          lineNumber: 329,
           columnNumber: 21
         }, this)
       ] }, index, true, {
         fileName: "app/root.tsx",
-        lineNumber: 343,
+        lineNumber: 325,
         columnNumber: 86
       }, this)) }, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 341,
+        lineNumber: 323,
         columnNumber: 13
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.tsx",
-      lineNumber: 313,
+      lineNumber: 306,
       columnNumber: 11
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "flex items-center justify-between flex-col sm:flex-row gap-3 py-3 border-t border-solid border-border text-xs text-muted-foreground font-medium", children: [
@@ -3302,46 +3294,41 @@ function AppFooter() {
         "All rights reserved"
       ] }, void 0, true, {
         fileName: "app/root.tsx",
-        lineNumber: 359,
+        lineNumber: 341,
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "flex items-center gap-x-3", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Link, { to: "https://docs.balancenetwork.io/views/About/aboutus.html", target: "_blank", rel: "norefeerer noopenner", className: "hover:text-foreground transition-colors duration-150", children: "Disclaimer" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Link, { to: "/maxi-privacy-policy.pdf", target: "_blank", rel: "norefeerer noopenner", className: "hover:text-foreground transition-colors duration-150", children: "Privacy Policy" }, void 0, false, {
           fileName: "app/root.tsx",
-          lineNumber: 364,
+          lineNumber: 346,
           columnNumber: 15
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Link, { to: "https://docs.balancenetwork.io/views/About/privacypolicy.html", target: "_blank", rel: "norefeerer noopenner", className: "hover:text-foreground transition-colors duration-150", children: "Privacy Policy" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Link, { to: "/maxi-term-of-use.pdf", target: "_blank", rel: "norefeerer noopenner", className: "hover:text-foreground transition-colors duration-150", children: "Terms Of Use" }, void 0, false, {
           fileName: "app/root.tsx",
-          lineNumber: 368,
-          columnNumber: 15
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(Link, { to: "https://docs.balancenetwork.io/views/About/termsofuse.html", target: "_blank", rel: "norefeerer noopenner", className: "hover:text-foreground transition-colors duration-150", children: "Terms & Conditions" }, void 0, false, {
-          fileName: "app/root.tsx",
-          lineNumber: 372,
+          lineNumber: 350,
           columnNumber: 15
         }, this)
       ] }, void 0, true, {
         fileName: "app/root.tsx",
-        lineNumber: 363,
+        lineNumber: 345,
         columnNumber: 13
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.tsx",
-      lineNumber: 358,
+      lineNumber: 340,
       columnNumber: 11
     }, this)
   ] }, void 0, true, {
     fileName: "app/root.tsx",
-    lineNumber: 311,
+    lineNumber: 304,
     columnNumber: 9
   }, this) }, void 0, false, {
     fileName: "app/root.tsx",
-    lineNumber: 310,
+    lineNumber: 303,
     columnNumber: 7
   }, this) }, void 0, false, {
     fileName: "app/root.tsx",
-    lineNumber: 309,
+    lineNumber: 302,
     columnNumber: 10
   }, this);
 }
@@ -3382,4 +3369,4 @@ export {
    * @license MIT
    *)
 */
-//# sourceMappingURL=/build/root-2Y72ZUYT.js.map
+//# sourceMappingURL=/build/root-6YA7ROP2.js.map

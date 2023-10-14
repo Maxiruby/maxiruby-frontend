@@ -58,7 +58,7 @@ export default function PortfolioClaims() {
     const signer = provider.getSigner();
 
     const contract = new ethers.Contract(
-      "0x0DC6247f0b52363aB920369D39f7f801dE41902D",
+      "0x67eb4fD1F47ddE52AeF2aC556E0C441d04D4b4d3",
       ido,
       signer
     );
@@ -92,7 +92,7 @@ export default function PortfolioClaims() {
     const signer = provider.getSigner();
 
     const contract = new ethers.Contract(
-      "0x0DC6247f0b52363aB920369D39f7f801dE41902D",
+      "0x67eb4fD1F47ddE52AeF2aC556E0C441d04D4b4d3",
       ido,
       signer
     );
