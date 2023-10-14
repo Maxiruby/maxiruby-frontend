@@ -38,6 +38,7 @@ export default function Banner({ user }: any) {
                 type="button"
                 title="Buy on PancakeSwap"
                 variant="secondary"
+                disabled={true}
               >
                 Buy on PancakeSwap
               </Button>
@@ -47,6 +48,7 @@ export default function Banner({ user }: any) {
                 type="button"
                 title="Buy on PancakeSwap"
                 variant="secondary"
+                disabled={true}
               >
                 Buy on SushiSwap
               </Button>
@@ -55,10 +57,11 @@ export default function Banner({ user }: any) {
               type="button"
               title="Buy on PancakeSwap"
               variant="secondary"
+              disabled={true}
             >
               Buy on Swap
             </Button>
-            <NavLink to="https://docs.google.com/forms/d/e/1FAIpQLSeXhKpfL0eOUV7vta2g6-i3R8q5Nk8nAS9nZh7jyYdhB1r5hA/viewform?usp=sf_link">
+            <NavLink to="https://docs.google.com/forms/d/e/1FAIpQLSdrVUjE2FvRdFm9CNNEk07iQ9mx7h00L2PNn4klIVQO6WMmDQ/viewform?usp=sf_link">
               <Button type="button" title="Apply for Launch" variant="primary">
                 Apply for Launch
               </Button>

@@ -3080,7 +3080,7 @@ function AppNavigation() {
       lineNumber: 213,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(AppNavigationLink, { title: "Apply", path: "https://docs.google.com/forms/d/e/1FAIpQLSeXhKpfL0eOUV7vta2g6-i3R8q5Nk8nAS9nZh7jyYdhB1r5hA/viewform?usp=sf_link" }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(AppNavigationLink, { title: "Apply", path: "https://docs.google.com/forms/d/e/1FAIpQLSdrVUjE2FvRdFm9CNNEk07iQ9mx7h00L2PNn4klIVQO6WMmDQ/viewform?usp=sf_link" }, void 0, false, {
       fileName: "app/root.tsx",
       lineNumber: 214,
       columnNumber: 7
@@ -3369,4 +3369,4 @@ export {
    * @license MIT
    *)
 */
-//# sourceMappingURL=/build/root-6YA7ROP2.js.map
+//# sourceMappingURL=/build/root-HXW6CGV4.js.map

@@ -560,10 +560,10 @@ if (import.meta) {
     //@ts-expect-error
     "app/wagmi.ts"
   );
-  import.meta.hot.lastModified = "1695297940782.9614";
+  import.meta.hot.lastModified = "1697288317241.2444";
 }
 var { chains, publicClient } = (0, import_wagmi.configureChains)(
-  [import_chains.bscTestnet],
+  [import_chains.bsc],
   [(0, import_public.publicProvider)()]
 );
 var walletConnectProjectId = "8b598b955027ef59e158c27e7f42a7bd";
@@ -688,4 +688,4 @@ var store = createStore(reducers_default, (0, import_redux_devtools_extension.co
     }, this)
   );
 });
-//# sourceMappingURL=/build/entry.client-AK7KG6YV.js.map
+//# sourceMappingURL=/build/entry.client-QBLU7PF2.js.map

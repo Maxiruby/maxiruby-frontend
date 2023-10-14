@@ -154,7 +154,7 @@ if (import.meta) {
     //@ts-expect-error
     "app/components/home/Banner.tsx"
   );
-  import.meta.hot.lastModified = "1697012475687.434";
+  import.meta.hot.lastModified = "1697291200086.9226";
 }
 function Banner({
   user
@@ -196,7 +196,7 @@ function Banner({
       columnNumber: 11
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "relative flex flex-1 flex-wrap items-center justify-center gap-x-3 lg:gap-x-5 gap-y-3 z-1", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(NavLink, { to: "https://pancakeswap.finance/swap?chain=bscTestnet&outputCurrency=0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Button_default, { type: "button", title: "Buy on PancakeSwap", variant: "secondary", children: "Buy on PancakeSwap" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(NavLink, { to: "https://pancakeswap.finance/swap?chain=bscTestnet&outputCurrency=0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Button_default, { type: "button", title: "Buy on PancakeSwap", variant: "secondary", disabled: true, children: "Buy on PancakeSwap" }, void 0, false, {
         fileName: "app/components/home/Banner.tsx",
         lineNumber: 51,
         columnNumber: 15
@@ -205,7 +205,7 @@ function Banner({
         lineNumber: 50,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(NavLink, { to: "https://www.sushi.com/swap?chainId=1&token0=NATIVE&token1=0x6B175474E89094C44Da98b954EedeAC495271d0F", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Button_default, { type: "button", title: "Buy on PancakeSwap", variant: "secondary", children: "Buy on SushiSwap" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(NavLink, { to: "https://www.sushi.com/swap?chainId=1&token0=NATIVE&token1=0x6B175474E89094C44Da98b954EedeAC495271d0F", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Button_default, { type: "button", title: "Buy on PancakeSwap", variant: "secondary", disabled: true, children: "Buy on SushiSwap" }, void 0, false, {
         fileName: "app/components/home/Banner.tsx",
         lineNumber: 56,
         columnNumber: 15
@@ -214,12 +214,12 @@ function Banner({
         lineNumber: 55,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Button_default, { type: "button", title: "Buy on PancakeSwap", variant: "secondary", children: "Buy on Swap" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Button_default, { type: "button", title: "Buy on PancakeSwap", variant: "secondary", disabled: true, children: "Buy on Swap" }, void 0, false, {
         fileName: "app/components/home/Banner.tsx",
         lineNumber: 60,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(NavLink, { to: "https://docs.google.com/forms/d/e/1FAIpQLSeXhKpfL0eOUV7vta2g6-i3R8q5Nk8nAS9nZh7jyYdhB1r5hA/viewform?usp=sf_link", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Button_default, { type: "button", title: "Apply for Launch", variant: "primary", children: "Apply for Launch" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(NavLink, { to: "https://docs.google.com/forms/d/e/1FAIpQLSdrVUjE2FvRdFm9CNNEk07iQ9mx7h00L2PNn4klIVQO6WMmDQ/viewform?usp=sf_link", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Button_default, { type: "button", title: "Apply for Launch", variant: "primary", children: "Apply for Launch" }, void 0, false, {
         fileName: "app/components/home/Banner.tsx",
         lineNumber: 64,
         columnNumber: 15
@@ -975,4 +975,4 @@ export {
   Index as default,
   meta
 };
-//# sourceMappingURL=/build/routes/_index-5XGNXMXE.js.map
+//# sourceMappingURL=/build/routes/_index-7IFOQNOI.js.map

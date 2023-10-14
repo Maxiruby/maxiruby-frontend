@@ -245,7 +245,7 @@ function AppNavigation() {
       <AppNavigationLink title="Blog" path="/blog" />
       <AppNavigationLink
         title="Apply"
-        path="https://docs.google.com/forms/d/e/1FAIpQLSeXhKpfL0eOUV7vta2g6-i3R8q5Nk8nAS9nZh7jyYdhB1r5hA/viewform?usp=sf_link"
+        path="https://docs.google.com/forms/d/e/1FAIpQLSdrVUjE2FvRdFm9CNNEk07iQ9mx7h00L2PNn4klIVQO6WMmDQ/viewform?usp=sf_link"
       />
     </nav>
   );
