@@ -174,10 +174,10 @@ export default function Login() {
             </div>
 
             <div className="flex flex-col justify-center items-center pt-6">
-              <strong className="text-xl font-semibold">OR</strong>
+              {/* <strong className="text-xl font-semibold">OR</strong> */}
             </div>
 
-            <div className="flex flex-row flex-wrap items-center justify-center gap-2">
+            {/* <div className="flex flex-row flex-wrap items-center justify-center gap-2">
               <Button
                 type="button"
                 title="Log in"
@@ -206,7 +206,7 @@ export default function Login() {
                 />
                 Log in with Twitter
               </Button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

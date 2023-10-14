@@ -63,7 +63,7 @@ if (import.meta) {
     //@ts-expect-error
     "app/routes/login.tsx"
   );
-  import.meta.hot.lastModified = "1695573162012.6853";
+  import.meta.hot.lastModified = "1697294807878.3418";
 }
 var meta = () => {
   return [{
@@ -256,43 +256,9 @@ function Login() {
           lineNumber: 146,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "flex flex-col justify-center items-center pt-6", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("strong", { className: "text-xl font-semibold", children: "OR" }, void 0, false, {
-          fileName: "app/routes/login.tsx",
-          lineNumber: 165,
-          columnNumber: 15
-        }, this) }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "flex flex-col justify-center items-center pt-6" }, void 0, false, {
           fileName: "app/routes/login.tsx",
           lineNumber: 164,
-          columnNumber: 13
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "flex flex-row flex-wrap items-center justify-center gap-2", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Button_default, { type: "button", title: "Log in", variant: "secondary", className: "w-fit min-w-[100px]", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Image_default, { src: Images.GoogleG, alt: "Google", width: 24, height: 24 }, void 0, false, {
-              fileName: "app/routes/login.tsx",
-              lineNumber: 170,
-              columnNumber: 17
-            }, this),
-            "Log in with Google"
-          ] }, void 0, true, {
-            fileName: "app/routes/login.tsx",
-            lineNumber: 169,
-            columnNumber: 15
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Button_default, { type: "button", title: "Log in", variant: "secondary", className: "w-fit min-w-[100px]", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Image_default, { src: Images.Twitter, alt: "Twitter", width: 24, height: 24 }, void 0, false, {
-              fileName: "app/routes/login.tsx",
-              lineNumber: 174,
-              columnNumber: 17
-            }, this),
-            "Log in with Twitter"
-          ] }, void 0, true, {
-            fileName: "app/routes/login.tsx",
-            lineNumber: 173,
-            columnNumber: 15
-          }, this)
-        ] }, void 0, true, {
-          fileName: "app/routes/login.tsx",
-          lineNumber: 168,
           columnNumber: 13
         }, this)
       ] }, void 0, true, {
@@ -327,4 +293,4 @@ export {
   Login as default,
   meta
 };
-//# sourceMappingURL=/build/routes/login-GF22VX7M.js.map
+//# sourceMappingURL=/build/routes/login-3NQM5CTC.js.map

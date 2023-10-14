@@ -65,7 +65,7 @@ if (import.meta) {
     //@ts-expect-error
     "app/routes/signup._index.tsx"
   );
-  import.meta.hot.lastModified = "1695573183231.5994";
+  import.meta.hot.lastModified = "1697294803611.7192";
 }
 var meta = () => {
   return [{
@@ -245,43 +245,9 @@ function Signup() {
           lineNumber: 146,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "flex flex-col justify-center items-center pt-6", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("strong", { className: "text-xl font-semibold", children: "OR" }, void 0, false, {
-          fileName: "app/routes/signup._index.tsx",
-          lineNumber: 162,
-          columnNumber: 15
-        }, this) }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "flex flex-col justify-center items-center pt-6" }, void 0, false, {
           fileName: "app/routes/signup._index.tsx",
           lineNumber: 161,
-          columnNumber: 13
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "flex flex-row flex-wrap items-center justify-center gap-2", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Button_default, { type: "button", title: "Log in", variant: "secondary", className: "w-fit min-w-[100px]", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Image_default, { src: Images.GoogleG, alt: "Google", width: 24, height: 24 }, void 0, false, {
-              fileName: "app/routes/signup._index.tsx",
-              lineNumber: 167,
-              columnNumber: 17
-            }, this),
-            "Sign up with Google"
-          ] }, void 0, true, {
-            fileName: "app/routes/signup._index.tsx",
-            lineNumber: 166,
-            columnNumber: 15
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Button_default, { type: "button", title: "Log in", variant: "secondary", className: "w-fit min-w-[100px]", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Image_default, { src: Images.Twitter, alt: "Twitter", width: 24, height: 24 }, void 0, false, {
-              fileName: "app/routes/signup._index.tsx",
-              lineNumber: 171,
-              columnNumber: 17
-            }, this),
-            "Sign up with Twitter"
-          ] }, void 0, true, {
-            fileName: "app/routes/signup._index.tsx",
-            lineNumber: 170,
-            columnNumber: 15
-          }, this)
-        ] }, void 0, true, {
-          fileName: "app/routes/signup._index.tsx",
-          lineNumber: 165,
           columnNumber: 13
         }, this)
       ] }, void 0, true, {
@@ -316,4 +282,4 @@ export {
   Signup as default,
   meta
 };
-//# sourceMappingURL=/build/routes/signup._index-OH4QANPJ.js.map
+//# sourceMappingURL=/build/routes/signup._index-OWJVSXUL.js.map
